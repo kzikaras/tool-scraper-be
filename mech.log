@@ -1,0 +1,621 @@
+# Logfile created on 2020-01-11 09:43:36 -0500 by logger.rb/61378
+I, [2020-01-11T09:43:36.615334 #2940]  INFO -- : Net::HTTP::Get: /
+D, [2020-01-11T09:43:36.615400 #2940] DEBUG -- : request-header: accept-encoding => gzip,deflate,identity
+D, [2020-01-11T09:43:36.615426 #2940] DEBUG -- : request-header: accept => */*
+D, [2020-01-11T09:43:36.615450 #2940] DEBUG -- : request-header: user-agent => Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_2) AppleWebKit/601.3.9 (KHTML, like Gecko) Version/9.0.2 Safari/601.3.9
+D, [2020-01-11T09:43:36.615471 #2940] DEBUG -- : request-header: accept-charset => ISO-8859-1,utf-8;q=0.7,*;q=0.7
+D, [2020-01-11T09:43:36.615491 #2940] DEBUG -- : request-header: accept-language => en-us,en;q=0.5
+D, [2020-01-11T09:43:36.615510 #2940] DEBUG -- : request-header: host => www.google.com
+I, [2020-01-11T09:43:36.707774 #2940]  INFO -- : status: Net::HTTPFound 1.1 302 Found
+D, [2020-01-11T09:43:36.707919 #2940] DEBUG -- : response-header: location => https://www.google.com/?gws_rd=ssl
+D, [2020-01-11T09:43:36.707958 #2940] DEBUG -- : response-header: cache-control => private
+D, [2020-01-11T09:43:36.707986 #2940] DEBUG -- : response-header: content-type => text/html; charset=UTF-8
+D, [2020-01-11T09:43:36.708015 #2940] DEBUG -- : response-header: date => Sat, 11 Jan 2020 14:43:36 GMT
+D, [2020-01-11T09:43:36.708038 #2940] DEBUG -- : response-header: server => gws
+D, [2020-01-11T09:43:36.708060 #2940] DEBUG -- : response-header: content-length => 231
+D, [2020-01-11T09:43:36.708084 #2940] DEBUG -- : response-header: x-xss-protection => 0
+D, [2020-01-11T09:43:36.708111 #2940] DEBUG -- : response-header: x-frame-options => SAMEORIGIN
+D, [2020-01-11T09:43:36.708142 #2940] DEBUG -- : response-header: set-cookie => 1P_JAR=2020-01-11-14; expires=Mon, 10-Feb-2020 14:43:36 GMT; path=/; domain=.google.com; Secure; SameSite=none
+D, [2020-01-11T09:43:36.708299 #2940] DEBUG -- : Read 231 bytes (231 total)
+D, [2020-01-11T09:43:36.713529 #2940] DEBUG -- : saved cookie: 1P_JAR=2020-01-11-14
+I, [2020-01-11T09:43:36.713660 #2940]  INFO -- : follow redirect to: https://www.google.com/?gws_rd=ssl
+I, [2020-01-11T09:43:36.714176 #2940]  INFO -- : Net::HTTP::Get: /?gws_rd=ssl
+D, [2020-01-11T09:43:36.714217 #2940] DEBUG -- : request-header: accept-encoding => gzip,deflate,identity
+D, [2020-01-11T09:43:36.714244 #2940] DEBUG -- : request-header: accept => */*
+D, [2020-01-11T09:43:36.714266 #2940] DEBUG -- : request-header: user-agent => Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_2) AppleWebKit/601.3.9 (KHTML, like Gecko) Version/9.0.2 Safari/601.3.9
+D, [2020-01-11T09:43:36.714288 #2940] DEBUG -- : request-header: accept-charset => ISO-8859-1,utf-8;q=0.7,*;q=0.7
+D, [2020-01-11T09:43:36.714310 #2940] DEBUG -- : request-header: accept-language => en-us,en;q=0.5
+D, [2020-01-11T09:43:36.714330 #2940] DEBUG -- : request-header: cookie => 1P_JAR=2020-01-11-14
+D, [2020-01-11T09:43:36.714351 #2940] DEBUG -- : request-header: host => www.google.com
+I, [2020-01-11T09:43:36.885486 #2940]  INFO -- : status: Net::HTTPOK 1.1 200 OK
+D, [2020-01-11T09:43:36.885585 #2940] DEBUG -- : response-header: date => Sat, 11 Jan 2020 14:43:36 GMT
+D, [2020-01-11T09:43:36.885616 #2940] DEBUG -- : response-header: expires => -1
+D, [2020-01-11T09:43:36.885638 #2940] DEBUG -- : response-header: cache-control => private, max-age=0
+D, [2020-01-11T09:43:36.885658 #2940] DEBUG -- : response-header: content-type => text/html; charset=UTF-8
+D, [2020-01-11T09:43:36.885678 #2940] DEBUG -- : response-header: strict-transport-security => max-age=31536000
+D, [2020-01-11T09:43:36.885698 #2940] DEBUG -- : response-header: p3p => CP="This is not a P3P policy! See g.co/p3phelp for more info."
+D, [2020-01-11T09:43:36.885719 #2940] DEBUG -- : response-header: content-encoding => gzip
+D, [2020-01-11T09:43:36.885738 #2940] DEBUG -- : response-header: server => gws
+D, [2020-01-11T09:43:36.885758 #2940] DEBUG -- : response-header: x-xss-protection => 0
+D, [2020-01-11T09:43:36.885777 #2940] DEBUG -- : response-header: x-frame-options => SAMEORIGIN
+D, [2020-01-11T09:43:36.885797 #2940] DEBUG -- : response-header: set-cookie => 1P_JAR=2020-01-11-14; expires=Mon, 10-Feb-2020 14:43:36 GMT; path=/; domain=.google.com; Secure; SameSite=none, NID=195=OnfKrHaN29-Q6aQifXVziip1OSCVuzITMWvmEXv2JZjnekWYCKeBYLOGYTRQtjib12BO5fLr0uKn2YACfSbKXkqfIduJajB4k1PUWJP6mlA33iaEVZyIOk9vSdQ_amIBw5nLifw2DuhjAoHN395dEc6I8Cqskb86XJ9ughIIzng; expires=Sun, 12-Jul-2020 14:43:36 GMT; path=/; domain=.google.com; HttpOnly
+D, [2020-01-11T09:43:36.885834 #2940] DEBUG -- : response-header: alt-svc => quic=":443"; ma=2592000; v="46,43",h3-Q050=":443"; ma=2592000,h3-Q049=":443"; ma=2592000,h3-Q048=":443"; ma=2592000,h3-Q046=":443"; ma=2592000,h3-Q043=":443"; ma=2592000
+D, [2020-01-11T09:43:36.885966 #2940] DEBUG -- : response-header: transfer-encoding => chunked
+D, [2020-01-11T09:43:36.886054 #2940] DEBUG -- : Read 1 bytes (1 total)
+D, [2020-01-11T09:43:36.886103 #2940] DEBUG -- : Read 1 bytes (2 total)
+D, [2020-01-11T09:43:36.886164 #2940] DEBUG -- : Read 1 bytes (3 total)
+D, [2020-01-11T09:43:36.886397 #2940] DEBUG -- : Read 1 bytes (4 total)
+D, [2020-01-11T09:43:36.886442 #2940] DEBUG -- : Read 1 bytes (5 total)
+D, [2020-01-11T09:43:36.886477 #2940] DEBUG -- : Read 1 bytes (6 total)
+D, [2020-01-11T09:43:36.886532 #2940] DEBUG -- : Read 1 bytes (7 total)
+D, [2020-01-11T09:43:36.886571 #2940] DEBUG -- : Read 1 bytes (8 total)
+D, [2020-01-11T09:43:36.886596 #2940] DEBUG -- : Read 1 bytes (9 total)
+D, [2020-01-11T09:43:36.886620 #2940] DEBUG -- : Read 1 bytes (10 total)
+D, [2020-01-11T09:43:36.886647 #2940] DEBUG -- : Read 319 bytes (329 total)
+D, [2020-01-11T09:43:36.886727 #2940] DEBUG -- : Read 1396 bytes (1725 total)
+D, [2020-01-11T09:43:36.886785 #2940] DEBUG -- : Read 1396 bytes (3121 total)
+D, [2020-01-11T09:43:36.886829 #2940] DEBUG -- : Read 1396 bytes (4517 total)
+D, [2020-01-11T09:43:36.886871 #2940] DEBUG -- : Read 1396 bytes (5913 total)
+D, [2020-01-11T09:43:36.886926 #2940] DEBUG -- : Read 1396 bytes (7309 total)
+D, [2020-01-11T09:43:36.887033 #2940] DEBUG -- : Read 835 bytes (8144 total)
+D, [2020-01-11T09:43:36.887085 #2940] DEBUG -- : Read 1 bytes (8145 total)
+D, [2020-01-11T09:43:36.887125 #2940] DEBUG -- : Read 1 bytes (8146 total)
+D, [2020-01-11T09:43:36.887163 #2940] DEBUG -- : Read 1 bytes (8147 total)
+D, [2020-01-11T09:43:36.887189 #2940] DEBUG -- : Read 1 bytes (8148 total)
+D, [2020-01-11T09:43:36.887213 #2940] DEBUG -- : Read 1 bytes (8149 total)
+D, [2020-01-11T09:43:36.887236 #2940] DEBUG -- : Read 1 bytes (8150 total)
+D, [2020-01-11T09:43:36.887259 #2940] DEBUG -- : Read 1 bytes (8151 total)
+D, [2020-01-11T09:43:36.887283 #2940] DEBUG -- : Read 1 bytes (8152 total)
+D, [2020-01-11T09:43:36.887408 #2940] DEBUG -- : Read 1 bytes (8153 total)
+D, [2020-01-11T09:43:36.887448 #2940] DEBUG -- : Read 1 bytes (8154 total)
+D, [2020-01-11T09:43:36.887473 #2940] DEBUG -- : Read 1 bytes (8155 total)
+D, [2020-01-11T09:43:36.887496 #2940] DEBUG -- : Read 1 bytes (8156 total)
+D, [2020-01-11T09:43:36.887519 #2940] DEBUG -- : Read 1 bytes (8157 total)
+D, [2020-01-11T09:43:36.887542 #2940] DEBUG -- : Read 1 bytes (8158 total)
+D, [2020-01-11T09:43:36.887565 #2940] DEBUG -- : Read 1 bytes (8159 total)
+D, [2020-01-11T09:43:36.887588 #2940] DEBUG -- : Read 1 bytes (8160 total)
+D, [2020-01-11T09:43:36.887612 #2940] DEBUG -- : Read 1 bytes (8161 total)
+D, [2020-01-11T09:43:36.887635 #2940] DEBUG -- : Read 1 bytes (8162 total)
+D, [2020-01-11T09:43:36.887658 #2940] DEBUG -- : Read 1 bytes (8163 total)
+D, [2020-01-11T09:43:36.887797 #2940] DEBUG -- : Read 1 bytes (8164 total)
+D, [2020-01-11T09:43:36.887825 #2940] DEBUG -- : Read 64 bytes (8228 total)
+D, [2020-01-11T09:43:36.891819 #2940] DEBUG -- : Read 1 bytes (8229 total)
+D, [2020-01-11T09:43:36.891909 #2940] DEBUG -- : Read 1 bytes (8230 total)
+D, [2020-01-11T09:43:36.891953 #2940] DEBUG -- : Read 1 bytes (8231 total)
+D, [2020-01-11T09:43:36.891989 #2940] DEBUG -- : Read 1 bytes (8232 total)
+D, [2020-01-11T09:43:36.892212 #2940] DEBUG -- : Read 1344 bytes (9576 total)
+D, [2020-01-11T09:43:36.892329 #2940] DEBUG -- : Read 1396 bytes (10972 total)
+D, [2020-01-11T09:43:36.892384 #2940] DEBUG -- : Read 1396 bytes (12368 total)
+D, [2020-01-11T09:43:36.900684 #2940] DEBUG -- : Read 1396 bytes (13764 total)
+D, [2020-01-11T09:43:36.900970 #2940] DEBUG -- : Read 1396 bytes (15160 total)
+D, [2020-01-11T09:43:36.901131 #2940] DEBUG -- : Read 1396 bytes (16556 total)
+D, [2020-01-11T09:43:36.901214 #2940] DEBUG -- : Read 1396 bytes (17952 total)
+D, [2020-01-11T09:43:36.901289 #2940] DEBUG -- : Read 1396 bytes (19348 total)
+D, [2020-01-11T09:43:36.901351 #2940] DEBUG -- : Read 1396 bytes (20744 total)
+D, [2020-01-11T09:43:36.901431 #2940] DEBUG -- : Read 1396 bytes (22140 total)
+D, [2020-01-11T09:43:36.901501 #2940] DEBUG -- : Read 1396 bytes (23536 total)
+D, [2020-01-11T09:43:36.904607 #2940] DEBUG -- : Read 1076 bytes (24612 total)
+D, [2020-01-11T09:43:36.904769 #2940] DEBUG -- : Read 1 bytes (24613 total)
+D, [2020-01-11T09:43:36.904834 #2940] DEBUG -- : Read 1 bytes (24614 total)
+D, [2020-01-11T09:43:36.904902 #2940] DEBUG -- : Read 1 bytes (24615 total)
+D, [2020-01-11T09:43:36.904962 #2940] DEBUG -- : Read 1354 bytes (25969 total)
+D, [2020-01-11T09:43:36.905050 #2940] DEBUG -- : Read 1396 bytes (27365 total)
+D, [2020-01-11T09:43:36.905328 #2940] DEBUG -- : Read 1396 bytes (28761 total)
+D, [2020-01-11T09:43:36.905499 #2940] DEBUG -- : Read 1396 bytes (30157 total)
+D, [2020-01-11T09:43:36.905582 #2940] DEBUG -- : Read 1396 bytes (31553 total)
+D, [2020-01-11T09:43:36.905664 #2940] DEBUG -- : Read 1396 bytes (32949 total)
+D, [2020-01-11T09:43:36.905729 #2940] DEBUG -- : Read 1396 bytes (34345 total)
+D, [2020-01-11T09:43:36.907204 #2940] DEBUG -- : Read 1396 bytes (35741 total)
+D, [2020-01-11T09:43:36.907343 #2940] DEBUG -- : Read 1396 bytes (37137 total)
+D, [2020-01-11T09:43:36.909876 #2940] DEBUG -- : Read 1396 bytes (38533 total)
+D, [2020-01-11T09:43:36.910136 #2940] DEBUG -- : Read 1396 bytes (39929 total)
+D, [2020-01-11T09:43:36.910332 #2940] DEBUG -- : Read 1067 bytes (40996 total)
+D, [2020-01-11T09:43:36.910489 #2940] DEBUG -- : Read 1 bytes (40997 total)
+D, [2020-01-11T09:43:36.910553 #2940] DEBUG -- : Read 1 bytes (40998 total)
+D, [2020-01-11T09:43:36.910614 #2940] DEBUG -- : Read 1 bytes (40999 total)
+D, [2020-01-11T09:43:36.910664 #2940] DEBUG -- : Read 1 bytes (41000 total)
+D, [2020-01-11T09:43:36.910812 #2940] DEBUG -- : Read 1 bytes (41001 total)
+D, [2020-01-11T09:43:36.910862 #2940] DEBUG -- : Read 1 bytes (41002 total)
+D, [2020-01-11T09:43:36.910912 #2940] DEBUG -- : Read 1314 bytes (42316 total)
+D, [2020-01-11T09:43:36.910993 #2940] DEBUG -- : Read 1396 bytes (43712 total)
+D, [2020-01-11T09:43:36.911066 #2940] DEBUG -- : Read 1396 bytes (45108 total)
+D, [2020-01-11T09:43:36.916080 #2940] DEBUG -- : Read 1396 bytes (46504 total)
+D, [2020-01-11T09:43:36.916226 #2940] DEBUG -- : Read 1396 bytes (47900 total)
+D, [2020-01-11T09:43:36.916485 #2940] DEBUG -- : Read 1396 bytes (49296 total)
+D, [2020-01-11T09:43:36.916645 #2940] DEBUG -- : Read 1396 bytes (50692 total)
+D, [2020-01-11T09:43:36.916770 #2940] DEBUG -- : Read 1396 bytes (52088 total)
+D, [2020-01-11T09:43:36.916868 #2940] DEBUG -- : Read 1396 bytes (53484 total)
+D, [2020-01-11T09:43:36.918443 #2940] DEBUG -- : Read 1396 bytes (54880 total)
+D, [2020-01-11T09:43:36.918632 #2940] DEBUG -- : Read 1396 bytes (56276 total)
+D, [2020-01-11T09:43:36.918739 #2940] DEBUG -- : Read 891 bytes (57167 total)
+D, [2020-01-11T09:43:36.918833 #2940] DEBUG -- : Read 1 bytes (57168 total)
+D, [2020-01-11T09:43:36.918950 #2940] DEBUG -- : Read 1 bytes (57169 total)
+D, [2020-01-11T09:43:36.918981 #2940] DEBUG -- : Read 1 bytes (57170 total)
+D, [2020-01-11T09:43:36.919117 #2940] DEBUG -- : Read 1 bytes (57171 total)
+D, [2020-01-11T09:43:36.919157 #2940] DEBUG -- : Read 1 bytes (57172 total)
+D, [2020-01-11T09:43:36.919207 #2940] DEBUG -- : Read 1 bytes (57173 total)
+D, [2020-01-11T09:43:36.919239 #2940] DEBUG -- : Read 1 bytes (57174 total)
+D, [2020-01-11T09:43:36.919266 #2940] DEBUG -- : Read 1 bytes (57175 total)
+D, [2020-01-11T09:43:36.919293 #2940] DEBUG -- : Read 1 bytes (57176 total)
+D, [2020-01-11T09:43:36.919319 #2940] DEBUG -- : Read 1 bytes (57177 total)
+D, [2020-01-11T09:43:36.919414 #2940] DEBUG -- : Read 1 bytes (57178 total)
+D, [2020-01-11T09:43:36.919464 #2940] DEBUG -- : Read 1 bytes (57179 total)
+D, [2020-01-11T09:43:36.919492 #2940] DEBUG -- : Read 1 bytes (57180 total)
+D, [2020-01-11T09:43:36.919519 #2940] DEBUG -- : Read 1 bytes (57181 total)
+D, [2020-01-11T09:43:36.919551 #2940] DEBUG -- : Read 187 bytes (57368 total)
+D, [2020-01-11T09:43:36.919615 #2940] DEBUG -- : Read 1 bytes (57369 total)
+D, [2020-01-11T09:43:36.919665 #2940] DEBUG -- : Read 1 bytes (57370 total)
+D, [2020-01-11T09:43:36.919705 #2940] DEBUG -- : Read 1 bytes (57371 total)
+D, [2020-01-11T09:43:36.919735 #2940] DEBUG -- : Read 1 bytes (57372 total)
+D, [2020-01-11T09:43:36.919762 #2940] DEBUG -- : Read 1 bytes (57373 total)
+D, [2020-01-11T09:43:36.919868 #2940] DEBUG -- : Read 1 bytes (57374 total)
+D, [2020-01-11T09:43:36.919902 #2940] DEBUG -- : Read 1 bytes (57375 total)
+D, [2020-01-11T09:43:36.919948 #2940] DEBUG -- : Read 1 bytes (57376 total)
+D, [2020-01-11T09:43:36.919981 #2940] DEBUG -- : Read 1 bytes (57377 total)
+D, [2020-01-11T09:43:36.920011 #2940] DEBUG -- : Read 1 bytes (57378 total)
+D, [2020-01-11T09:43:36.920042 #2940] DEBUG -- : Read 1 bytes (57379 total)
+D, [2020-01-11T09:43:36.920093 #2940] DEBUG -- : Read 1 bytes (57380 total)
+D, [2020-01-11T09:43:36.920135 #2940] DEBUG -- : Read 1 bytes (57381 total)
+D, [2020-01-11T09:43:36.920173 #2940] DEBUG -- : Read 1 bytes (57382 total)
+D, [2020-01-11T09:43:36.920211 #2940] DEBUG -- : Read 1 bytes (57383 total)
+D, [2020-01-11T09:43:36.920425 #2940] DEBUG -- : Read 1200 bytes (58583 total)
+D, [2020-01-11T09:43:36.920556 #2940] DEBUG -- : Read 1396 bytes (59979 total)
+D, [2020-01-11T09:43:36.920693 #2940] DEBUG -- : Read 1396 bytes (61375 total)
+D, [2020-01-11T09:43:36.922165 #2940] DEBUG -- : Read 1321 bytes (62696 total)
+D, [2020-01-11T09:43:36.922523 #2940] DEBUG -- : gzip response
+D, [2020-01-11T09:43:36.935616 #2940] DEBUG -- : saved cookie: 1P_JAR=2020-01-11-14
+D, [2020-01-11T09:43:36.936076 #2940] DEBUG -- : saved cookie: NID=195=OnfKrHaN29-Q6aQifXVziip1OSCVuzITMWvmEXv2JZjnekWYCKeBYLOGYTRQtjib12BO5fLr0uKn2YACfSbKXkqfIduJajB4k1PUWJP6mlA33iaEVZyIOk9vSdQ_amIBw5nLifw2DuhjAoHN395dEc6I8Cqskb86XJ9ughIIzng
+I, [2020-01-11T09:43:36.953446 #2940]  INFO -- : form encoding: UTF-8
+I, [2020-01-11T09:43:36.954159 #2940]  INFO -- : Net::HTTP::Get: /search?source=hp&ei=GN8ZXu_pNe6n5wLSn4O4Cw&q=Hello
+D, [2020-01-11T09:43:36.954200 #2940] DEBUG -- : request-header: accept-encoding => gzip,deflate,identity
+D, [2020-01-11T09:43:36.954220 #2940] DEBUG -- : request-header: accept => */*
+D, [2020-01-11T09:43:36.954237 #2940] DEBUG -- : request-header: user-agent => Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_2) AppleWebKit/601.3.9 (KHTML, like Gecko) Version/9.0.2 Safari/601.3.9
+D, [2020-01-11T09:43:36.954254 #2940] DEBUG -- : request-header: accept-charset => ISO-8859-1,utf-8;q=0.7,*;q=0.7
+D, [2020-01-11T09:43:36.954270 #2940] DEBUG -- : request-header: accept-language => en-us,en;q=0.5
+D, [2020-01-11T09:43:36.954285 #2940] DEBUG -- : request-header: cookie => 1P_JAR=2020-01-11-14; NID=195=OnfKrHaN29-Q6aQifXVziip1OSCVuzITMWvmEXv2JZjnekWYCKeBYLOGYTRQtjib12BO5fLr0uKn2YACfSbKXkqfIduJajB4k1PUWJP6mlA33iaEVZyIOk9vSdQ_amIBw5nLifw2DuhjAoHN395dEc6I8Cqskb86XJ9ughIIzng
+D, [2020-01-11T09:43:36.954301 #2940] DEBUG -- : request-header: host => www.google.com
+D, [2020-01-11T09:43:36.954316 #2940] DEBUG -- : request-header: referer => https://www.google.com/?gws_rd=ssl
+I, [2020-01-11T09:43:37.031661 #2940]  INFO -- : status: Net::HTTPOK 1.1 200 OK
+D, [2020-01-11T09:43:37.031809 #2940] DEBUG -- : response-header: content-type => text/html; charset=UTF-8
+D, [2020-01-11T09:43:37.031890 #2940] DEBUG -- : response-header: date => Sat, 11 Jan 2020 14:43:37 GMT
+D, [2020-01-11T09:43:37.031942 #2940] DEBUG -- : response-header: expires => -1
+D, [2020-01-11T09:43:37.032121 #2940] DEBUG -- : response-header: cache-control => private, max-age=0
+D, [2020-01-11T09:43:37.032158 #2940] DEBUG -- : response-header: strict-transport-security => max-age=31536000
+D, [2020-01-11T09:43:37.032211 #2940] DEBUG -- : response-header: content-encoding => gzip
+D, [2020-01-11T09:43:37.032287 #2940] DEBUG -- : response-header: server => gws
+D, [2020-01-11T09:43:37.032320 #2940] DEBUG -- : response-header: x-xss-protection => 0
+D, [2020-01-11T09:43:37.032349 #2940] DEBUG -- : response-header: x-frame-options => SAMEORIGIN
+D, [2020-01-11T09:43:37.032380 #2940] DEBUG -- : response-header: set-cookie => 1P_JAR=2020-01-11-14; expires=Mon, 10-Feb-2020 14:43:37 GMT; path=/; domain=.google.com; Secure; SameSite=none, CGIC=IgMqLyo; expires=Thu, 09-Jul-2020 14:43:37 GMT; path=/complete/search; domain=.google.com; HttpOnly, CGIC=IgMqLyo; expires=Thu, 09-Jul-2020 14:43:37 GMT; path=/search; domain=.google.com; HttpOnly
+D, [2020-01-11T09:43:37.032412 #2940] DEBUG -- : response-header: alt-svc => quic=":443"; ma=2592000; v="46,43",h3-Q050=":443"; ma=2592000,h3-Q049=":443"; ma=2592000,h3-Q048=":443"; ma=2592000,h3-Q046=":443"; ma=2592000,h3-Q043=":443"; ma=2592000
+D, [2020-01-11T09:43:37.032443 #2940] DEBUG -- : response-header: transfer-encoding => chunked
+D, [2020-01-11T09:43:37.032549 #2940] DEBUG -- : Read 1 bytes (1 total)
+D, [2020-01-11T09:43:37.032637 #2940] DEBUG -- : Read 1 bytes (2 total)
+D, [2020-01-11T09:43:37.032914 #2940] DEBUG -- : Read 1 bytes (3 total)
+D, [2020-01-11T09:43:37.032970 #2940] DEBUG -- : Read 1 bytes (4 total)
+D, [2020-01-11T09:43:37.033017 #2940] DEBUG -- : Read 1 bytes (5 total)
+D, [2020-01-11T09:43:37.033063 #2940] DEBUG -- : Read 1 bytes (6 total)
+D, [2020-01-11T09:43:37.033108 #2940] DEBUG -- : Read 1 bytes (7 total)
+D, [2020-01-11T09:43:37.033152 #2940] DEBUG -- : Read 1 bytes (8 total)
+D, [2020-01-11T09:43:37.033333 #2940] DEBUG -- : Read 454 bytes (462 total)
+D, [2020-01-11T09:43:37.033424 #2940] DEBUG -- : Read 1396 bytes (1858 total)
+D, [2020-01-11T09:43:37.033535 #2940] DEBUG -- : Read 1396 bytes (3254 total)
+D, [2020-01-11T09:43:37.033660 #2940] DEBUG -- : Read 1396 bytes (4650 total)
+D, [2020-01-11T09:43:37.033782 #2940] DEBUG -- : Read 1396 bytes (6046 total)
+D, [2020-01-11T09:43:37.033928 #2940] DEBUG -- : Read 1396 bytes (7442 total)
+D, [2020-01-11T09:43:37.034019 #2940] DEBUG -- : Read 839 bytes (8281 total)
+D, [2020-01-11T09:43:37.034102 #2940] DEBUG -- : Read 1 bytes (8282 total)
+D, [2020-01-11T09:43:37.034380 #2940] DEBUG -- : Read 30 bytes (8312 total)
+D, [2020-01-11T09:43:37.034569 #2940] DEBUG -- : Read 1 bytes (8313 total)
+D, [2020-01-11T09:43:37.034684 #2940] DEBUG -- : Read 1 bytes (8314 total)
+D, [2020-01-11T09:43:37.034756 #2940] DEBUG -- : Read 1 bytes (8315 total)
+D, [2020-01-11T09:43:37.034788 #2940] DEBUG -- : Read 1 bytes (8316 total)
+D, [2020-01-11T09:43:37.034821 #2940] DEBUG -- : Read 1 bytes (8317 total)
+D, [2020-01-11T09:43:37.034852 #2940] DEBUG -- : Read 1 bytes (8318 total)
+D, [2020-01-11T09:43:37.034883 #2940] DEBUG -- : Read 1 bytes (8319 total)
+D, [2020-01-11T09:43:37.034934 #2940] DEBUG -- : Read 1 bytes (8320 total)
+D, [2020-01-11T09:43:37.035178 #2940] DEBUG -- : Read 1 bytes (8321 total)
+D, [2020-01-11T09:43:37.035273 #2940] DEBUG -- : Read 1 bytes (8322 total)
+D, [2020-01-11T09:43:37.035336 #2940] DEBUG -- : Read 1 bytes (8323 total)
+D, [2020-01-11T09:43:37.035383 #2940] DEBUG -- : Read 1 bytes (8324 total)
+D, [2020-01-11T09:43:37.035460 #2940] DEBUG -- : Read 1240 bytes (9564 total)
+D, [2020-01-11T09:43:37.035617 #2940] DEBUG -- : Read 1396 bytes (10960 total)
+D, [2020-01-11T09:43:37.035738 #2940] DEBUG -- : Read 1396 bytes (12356 total)
+D, [2020-01-11T09:43:37.035848 #2940] DEBUG -- : Read 1396 bytes (13752 total)
+D, [2020-01-11T09:43:37.035937 #2940] DEBUG -- : Read 1396 bytes (15148 total)
+D, [2020-01-11T09:43:37.036005 #2940] DEBUG -- : Read 1396 bytes (16544 total)
+D, [2020-01-11T09:43:37.036084 #2940] DEBUG -- : Read 1396 bytes (17940 total)
+D, [2020-01-11T09:43:37.036769 #2940] DEBUG -- : Read 1396 bytes (19336 total)
+D, [2020-01-11T09:43:37.037155 #2940] DEBUG -- : Read 1396 bytes (20732 total)
+D, [2020-01-11T09:43:37.037305 #2940] DEBUG -- : Read 1396 bytes (22128 total)
+D, [2020-01-11T09:43:37.037453 #2940] DEBUG -- : Read 1396 bytes (23524 total)
+D, [2020-01-11T09:43:37.037555 #2940] DEBUG -- : Read 1166 bytes (24690 total)
+D, [2020-01-11T09:43:37.037667 #2940] DEBUG -- : Read 1 bytes (24691 total)
+D, [2020-01-11T09:43:37.037715 #2940] DEBUG -- : Read 1 bytes (24692 total)
+D, [2020-01-11T09:43:37.037762 #2940] DEBUG -- : Read 1 bytes (24693 total)
+D, [2020-01-11T09:43:37.037806 #2940] DEBUG -- : Read 1 bytes (24694 total)
+D, [2020-01-11T09:43:37.037845 #2940] DEBUG -- : Read 1342 bytes (26036 total)
+D, [2020-01-11T09:43:37.037909 #2940] DEBUG -- : Read 1396 bytes (27432 total)
+D, [2020-01-11T09:43:37.038078 #2940] DEBUG -- : Read 1396 bytes (28828 total)
+D, [2020-01-11T09:43:37.038137 #2940] DEBUG -- : Read 1396 bytes (30224 total)
+D, [2020-01-11T09:43:37.038259 #2940] DEBUG -- : Read 1396 bytes (31620 total)
+D, [2020-01-11T09:43:37.038325 #2940] DEBUG -- : Read 1171 bytes (32791 total)
+D, [2020-01-11T09:43:38.238159 #2940] DEBUG -- : Read 1 bytes (32792 total)
+D, [2020-01-11T09:43:38.238305 #2940] DEBUG -- : Read 1 bytes (32793 total)
+D, [2020-01-11T09:43:38.238416 #2940] DEBUG -- : Read 1 bytes (32794 total)
+D, [2020-01-11T09:43:38.238516 #2940] DEBUG -- : Read 1 bytes (32795 total)
+D, [2020-01-11T09:43:38.238586 #2940] DEBUG -- : Read 1 bytes (32796 total)
+D, [2020-01-11T09:43:38.238801 #2940] DEBUG -- : Read 1323 bytes (34119 total)
+D, [2020-01-11T09:43:38.238871 #2940] DEBUG -- : Read 1396 bytes (35515 total)
+D, [2020-01-11T09:43:38.238915 #2940] DEBUG -- : Read 374 bytes (35889 total)
+D, [2020-01-11T09:43:38.238976 #2940] DEBUG -- : Read 1 bytes (35890 total)
+D, [2020-01-11T09:43:38.239035 #2940] DEBUG -- : Read 1 bytes (35891 total)
+D, [2020-01-11T09:43:38.239101 #2940] DEBUG -- : Read 1 bytes (35892 total)
+D, [2020-01-11T09:43:38.239195 #2940] DEBUG -- : Read 1 bytes (35893 total)
+D, [2020-01-11T09:43:38.239254 #2940] DEBUG -- : Read 1 bytes (35894 total)
+D, [2020-01-11T09:43:38.239285 #2940] DEBUG -- : Read 1 bytes (35895 total)
+D, [2020-01-11T09:43:38.239377 #2940] DEBUG -- : Read 1 bytes (35896 total)
+D, [2020-01-11T09:43:38.239413 #2940] DEBUG -- : Read 1 bytes (35897 total)
+D, [2020-01-11T09:43:38.239446 #2940] DEBUG -- : Read 1 bytes (35898 total)
+D, [2020-01-11T09:43:38.239481 #2940] DEBUG -- : Read 1 bytes (35899 total)
+D, [2020-01-11T09:43:38.239512 #2940] DEBUG -- : Read 1 bytes (35900 total)
+D, [2020-01-11T09:43:38.239542 #2940] DEBUG -- : Read 1 bytes (35901 total)
+D, [2020-01-11T09:43:38.239576 #2940] DEBUG -- : Read 1 bytes (35902 total)
+D, [2020-01-11T09:43:38.239614 #2940] DEBUG -- : Read 1223 bytes (37125 total)
+D, [2020-01-11T09:43:38.239661 #2940] DEBUG -- : Read 1396 bytes (38521 total)
+D, [2020-01-11T09:43:38.239710 #2940] DEBUG -- : Read 1396 bytes (39917 total)
+D, [2020-01-11T09:43:38.239837 #2940] DEBUG -- : Read 1396 bytes (41313 total)
+D, [2020-01-11T09:43:38.240081 #2940] DEBUG -- : Read 652 bytes (41965 total)
+D, [2020-01-11T09:43:38.240179 #2940] DEBUG -- : Read 1 bytes (41966 total)
+D, [2020-01-11T09:43:38.240226 #2940] DEBUG -- : Read 1 bytes (41967 total)
+D, [2020-01-11T09:43:38.240267 #2940] DEBUG -- : Read 1 bytes (41968 total)
+D, [2020-01-11T09:43:38.240303 #2940] DEBUG -- : Read 1 bytes (41969 total)
+D, [2020-01-11T09:43:38.240351 #2940] DEBUG -- : Read 1 bytes (41970 total)
+D, [2020-01-11T09:43:38.240387 #2940] DEBUG -- : Read 1 bytes (41971 total)
+D, [2020-01-11T09:43:38.240422 #2940] DEBUG -- : Read 1 bytes (41972 total)
+D, [2020-01-11T09:43:38.240484 #2940] DEBUG -- : Read 1 bytes (41973 total)
+D, [2020-01-11T09:43:38.240532 #2940] DEBUG -- : Read 1 bytes (41974 total)
+D, [2020-01-11T09:43:38.240568 #2940] DEBUG -- : Read 1 bytes (41975 total)
+D, [2020-01-11T09:43:38.240933 #2940] DEBUG -- : Read 1261 bytes (43236 total)
+D, [2020-01-11T09:43:38.241106 #2940] DEBUG -- : Read 1396 bytes (44632 total)
+D, [2020-01-11T09:43:38.241266 #2940] DEBUG -- : Read 1396 bytes (46028 total)
+D, [2020-01-11T09:43:38.241365 #2940] DEBUG -- : Read 1396 bytes (47424 total)
+D, [2020-01-11T09:43:38.241439 #2940] DEBUG -- : Read 1396 bytes (48820 total)
+D, [2020-01-11T09:43:38.241516 #2940] DEBUG -- : Read 1396 bytes (50216 total)
+D, [2020-01-11T09:43:38.241589 #2940] DEBUG -- : Read 1396 bytes (51612 total)
+D, [2020-01-11T09:43:38.241663 #2940] DEBUG -- : Read 1396 bytes (53008 total)
+D, [2020-01-11T09:43:38.241732 #2940] DEBUG -- : Read 1396 bytes (54404 total)
+D, [2020-01-11T09:43:38.241811 #2940] DEBUG -- : Read 1396 bytes (55800 total)
+D, [2020-01-11T09:43:38.241872 #2940] DEBUG -- : Read 1396 bytes (57196 total)
+D, [2020-01-11T09:43:38.241929 #2940] DEBUG -- : Read 686 bytes (57882 total)
+D, [2020-01-11T09:43:38.242028 #2940] DEBUG -- : Read 1 bytes (57883 total)
+D, [2020-01-11T09:43:38.242093 #2940] DEBUG -- : Read 1 bytes (57884 total)
+D, [2020-01-11T09:43:38.242158 #2940] DEBUG -- : Read 1 bytes (57885 total)
+D, [2020-01-11T09:43:38.242207 #2940] DEBUG -- : Read 1 bytes (57886 total)
+D, [2020-01-11T09:43:38.242445 #2940] DEBUG -- : Read 1334 bytes (59220 total)
+D, [2020-01-11T09:43:38.242516 #2940] DEBUG -- : Read 1396 bytes (60616 total)
+D, [2020-01-11T09:43:38.242574 #2940] DEBUG -- : Read 1396 bytes (62012 total)
+D, [2020-01-11T09:43:38.242619 #2940] DEBUG -- : Read 1396 bytes (63408 total)
+D, [2020-01-11T09:43:38.242655 #2940] DEBUG -- : Read 1396 bytes (64804 total)
+D, [2020-01-11T09:43:38.242700 #2940] DEBUG -- : Read 1396 bytes (66200 total)
+D, [2020-01-11T09:43:38.242769 #2940] DEBUG -- : Read 703 bytes (66903 total)
+D, [2020-01-11T09:43:38.242875 #2940] DEBUG -- : Read 1 bytes (66904 total)
+D, [2020-01-11T09:43:38.242927 #2940] DEBUG -- : Read 1 bytes (66905 total)
+D, [2020-01-11T09:43:38.242959 #2940] DEBUG -- : Read 1 bytes (66906 total)
+D, [2020-01-11T09:43:38.242994 #2940] DEBUG -- : Read 1 bytes (66907 total)
+D, [2020-01-11T09:43:38.243021 #2940] DEBUG -- : Read 1 bytes (66908 total)
+D, [2020-01-11T09:43:38.243048 #2940] DEBUG -- : Read 1 bytes (66909 total)
+D, [2020-01-11T09:43:38.243074 #2940] DEBUG -- : Read 1 bytes (66910 total)
+D, [2020-01-11T09:43:38.243189 #2940] DEBUG -- : Read 1 bytes (66911 total)
+D, [2020-01-11T09:43:38.243217 #2940] DEBUG -- : Read 1 bytes (66912 total)
+D, [2020-01-11T09:43:38.243256 #2940] DEBUG -- : Read 1 bytes (66913 total)
+D, [2020-01-11T09:43:38.243285 #2940] DEBUG -- : Read 1 bytes (66914 total)
+D, [2020-01-11T09:43:38.243315 #2940] DEBUG -- : Read 1248 bytes (68162 total)
+D, [2020-01-11T09:43:38.243368 #2940] DEBUG -- : Read 1396 bytes (69558 total)
+D, [2020-01-11T09:43:38.243409 #2940] DEBUG -- : Read 1396 bytes (70954 total)
+D, [2020-01-11T09:43:38.243451 #2940] DEBUG -- : Read 1396 bytes (72350 total)
+D, [2020-01-11T09:43:38.243490 #2940] DEBUG -- : Read 1396 bytes (73746 total)
+D, [2020-01-11T09:43:38.243529 #2940] DEBUG -- : Read 1396 bytes (75142 total)
+D, [2020-01-11T09:43:38.243565 #2940] DEBUG -- : Read 1396 bytes (76538 total)
+D, [2020-01-11T09:43:38.243607 #2940] DEBUG -- : Read 1396 bytes (77934 total)
+D, [2020-01-11T09:43:38.243659 #2940] DEBUG -- : Read 1396 bytes (79330 total)
+D, [2020-01-11T09:43:38.243751 #2940] DEBUG -- : Read 1396 bytes (80726 total)
+D, [2020-01-11T09:43:38.243798 #2940] DEBUG -- : Read 1396 bytes (82122 total)
+D, [2020-01-11T09:43:38.243833 #2940] DEBUG -- : Read 144 bytes (82266 total)
+D, [2020-01-11T09:43:38.243926 #2940] DEBUG -- : Read 1 bytes (82267 total)
+D, [2020-01-11T09:43:38.244080 #2940] DEBUG -- : Read 1 bytes (82268 total)
+D, [2020-01-11T09:43:38.244116 #2940] DEBUG -- : Read 1 bytes (82269 total)
+D, [2020-01-11T09:43:38.244150 #2940] DEBUG -- : Read 1348 bytes (83617 total)
+D, [2020-01-11T09:43:38.244192 #2940] DEBUG -- : Read 1396 bytes (85013 total)
+D, [2020-01-11T09:43:38.244244 #2940] DEBUG -- : Read 1396 bytes (86409 total)
+D, [2020-01-11T09:43:38.244281 #2940] DEBUG -- : Read 1396 bytes (87805 total)
+D, [2020-01-11T09:43:38.244324 #2940] DEBUG -- : Read 1396 bytes (89201 total)
+D, [2020-01-11T09:43:38.244362 #2940] DEBUG -- : Read 1396 bytes (90597 total)
+D, [2020-01-11T09:43:38.244401 #2940] DEBUG -- : Read 1396 bytes (91993 total)
+D, [2020-01-11T09:43:38.244437 #2940] DEBUG -- : Read 1396 bytes (93389 total)
+D, [2020-01-11T09:43:38.244478 #2940] DEBUG -- : Read 1396 bytes (94785 total)
+D, [2020-01-11T09:43:38.244520 #2940] DEBUG -- : Read 1396 bytes (96181 total)
+D, [2020-01-11T09:43:38.244611 #2940] DEBUG -- : Read 1396 bytes (97577 total)
+D, [2020-01-11T09:43:38.244720 #2940] DEBUG -- : Read 1396 bytes (98973 total)
+D, [2020-01-11T09:43:38.245307 #2940] DEBUG -- : Read 1396 bytes (100369 total)
+D, [2020-01-11T09:43:38.245368 #2940] DEBUG -- : Read 1396 bytes (101765 total)
+D, [2020-01-11T09:43:38.245462 #2940] DEBUG -- : Read 1396 bytes (103161 total)
+D, [2020-01-11T09:43:38.245507 #2940] DEBUG -- : Read 1396 bytes (104557 total)
+D, [2020-01-11T09:43:38.245560 #2940] DEBUG -- : Read 1396 bytes (105953 total)
+D, [2020-01-11T09:43:38.245628 #2940] DEBUG -- : Read 1396 bytes (107349 total)
+D, [2020-01-11T09:43:38.245676 #2940] DEBUG -- : Read 1396 bytes (108745 total)
+D, [2020-01-11T09:43:38.245738 #2940] DEBUG -- : Read 1396 bytes (110141 total)
+D, [2020-01-11T09:43:38.245820 #2940] DEBUG -- : Read 1396 bytes (111537 total)
+D, [2020-01-11T09:43:38.245860 #2940] DEBUG -- : Read 1396 bytes (112933 total)
+D, [2020-01-11T09:43:38.245907 #2940] DEBUG -- : Read 1396 bytes (114329 total)
+D, [2020-01-11T09:43:38.245946 #2940] DEBUG -- : Read 699 bytes (115028 total)
+D, [2020-01-11T09:43:38.246003 #2940] DEBUG -- : Read 1 bytes (115029 total)
+D, [2020-01-11T09:43:38.246173 #2940] DEBUG -- : Read 1 bytes (115030 total)
+D, [2020-01-11T09:43:38.246207 #2940] DEBUG -- : Read 1 bytes (115031 total)
+D, [2020-01-11T09:43:38.246263 #2940] DEBUG -- : Read 1 bytes (115032 total)
+D, [2020-01-11T09:43:38.246297 #2940] DEBUG -- : Read 1 bytes (115033 total)
+D, [2020-01-11T09:43:38.246325 #2940] DEBUG -- : Read 1 bytes (115034 total)
+D, [2020-01-11T09:43:38.246357 #2940] DEBUG -- : Read 1 bytes (115035 total)
+D, [2020-01-11T09:43:38.246391 #2940] DEBUG -- : Read 1 bytes (115036 total)
+D, [2020-01-11T09:43:38.246420 #2940] DEBUG -- : Read 1 bytes (115037 total)
+D, [2020-01-11T09:43:38.246449 #2940] DEBUG -- : Read 1 bytes (115038 total)
+D, [2020-01-11T09:43:38.246641 #2940] DEBUG -- : Read 1265 bytes (116303 total)
+D, [2020-01-11T09:43:38.246719 #2940] DEBUG -- : Read 1396 bytes (117699 total)
+D, [2020-01-11T09:43:38.246773 #2940] DEBUG -- : Read 1396 bytes (119095 total)
+D, [2020-01-11T09:43:38.246809 #2940] DEBUG -- : Read 1016 bytes (120111 total)
+D, [2020-01-11T09:43:38.246864 #2940] DEBUG -- : Read 1 bytes (120112 total)
+D, [2020-01-11T09:43:38.246903 #2940] DEBUG -- : Read 1375 bytes (121487 total)
+D, [2020-01-11T09:43:38.246938 #2940] DEBUG -- : Read 1396 bytes (122883 total)
+D, [2020-01-11T09:43:38.246990 #2940] DEBUG -- : Read 634 bytes (123517 total)
+D, [2020-01-11T09:43:38.247142 #2940] DEBUG -- : gzip response
+D, [2020-01-11T09:43:38.271636 #2940] DEBUG -- : saved cookie: 1P_JAR=2020-01-11-14
+D, [2020-01-11T09:43:38.271989 #2940] DEBUG -- : saved cookie: CGIC=IgMqLyo
+D, [2020-01-11T09:43:38.272180 #2940] DEBUG -- : saved cookie: CGIC=IgMqLyo
+I, [2020-01-11T09:46:15.252335 #3058]  INFO -- : Net::HTTP::Get: /
+D, [2020-01-11T09:46:15.252438 #3058] DEBUG -- : request-header: accept-encoding => gzip,deflate,identity
+D, [2020-01-11T09:46:15.252466 #3058] DEBUG -- : request-header: accept => */*
+D, [2020-01-11T09:46:15.252489 #3058] DEBUG -- : request-header: user-agent => Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_2) AppleWebKit/601.3.9 (KHTML, like Gecko) Version/9.0.2 Safari/601.3.9
+D, [2020-01-11T09:46:15.252510 #3058] DEBUG -- : request-header: accept-charset => ISO-8859-1,utf-8;q=0.7,*;q=0.7
+D, [2020-01-11T09:46:15.252530 #3058] DEBUG -- : request-header: accept-language => en-us,en;q=0.5
+D, [2020-01-11T09:46:15.252549 #3058] DEBUG -- : request-header: host => www.homedepot.com
+I, [2020-01-11T09:46:15.475371 #3058]  INFO -- : status: Net::HTTPOK 1.1 200 OK
+D, [2020-01-11T09:46:15.475499 #3058] DEBUG -- : response-header: content-encoding => gzip
+D, [2020-01-11T09:46:15.475566 #3058] DEBUG -- : response-header: x-device-type => desktop
+D, [2020-01-11T09:46:15.475621 #3058] DEBUG -- : response-header: accept-ranges => bytes
+D, [2020-01-11T09:46:15.475671 #3058] DEBUG -- : response-header: x-tm-zone => us-east4-c
+D, [2020-01-11T09:46:15.475716 #3058] DEBUG -- : response-header: content-language => en-US
+D, [2020-01-11T09:46:15.475779 #3058] DEBUG -- : response-header: server => nginx
+D, [2020-01-11T09:46:15.475814 #3058] DEBUG -- : response-header: x-varnish => 16356264 16128497
+D, [2020-01-11T09:46:15.475900 #3058] DEBUG -- : response-header: x-varnish-cache => HIT(18646)@default
+D, [2020-01-11T09:46:15.475939 #3058] DEBUG -- : response-header: vary => X-Device-Type,X-Proto,X-ALTEXP,Accept-Encoding
+D, [2020-01-11T09:46:15.475965 #3058] DEBUG -- : response-header: grace => none
+D, [2020-01-11T09:46:15.475986 #3058] DEBUG -- : response-header: content-type => text/html;charset=UTF-8
+D, [2020-01-11T09:46:15.476006 #3058] DEBUG -- : response-header: x-varnish-esi => true
+D, [2020-01-11T09:46:15.476026 #3058] DEBUG -- : response-header: x-akamai-transformed => 9 47390 0 pmb=mTOE,3
+D, [2020-01-11T09:46:15.476045 #3058] DEBUG -- : response-header: expires => Sat, 11 Jan 2020 14:46:15 GMT
+D, [2020-01-11T09:46:15.476063 #3058] DEBUG -- : response-header: cache-control => max-age=0, no-cache, no-store
+D, [2020-01-11T09:46:15.476081 #3058] DEBUG -- : response-header: pragma => no-cache
+D, [2020-01-11T09:46:15.476099 #3058] DEBUG -- : response-header: date => Sat, 11 Jan 2020 14:46:15 GMT
+D, [2020-01-11T09:46:15.476117 #3058] DEBUG -- : response-header: content-length => 44105
+D, [2020-01-11T09:46:15.476133 #3058] DEBUG -- : response-header: connection => keep-alive
+D, [2020-01-11T09:46:15.476205 #3058] DEBUG -- : response-header: set-cookie => akaau=1578754275~id=d018a7e7ea2dd5f618414f996f454d59; path=/, ak_bmsc=8415B5D88CF5F608E8DD88CC1E3A2AB8D0B9364EE76E0000B7DF195E10B87A3D~pl9wlCzk/Ek1quxyLUelwbYSrtVXZP9dU2ih5fZUS5Ho6xmkfHKZt1oUOam3JCq7z8IUHUJBiDfOfkHjySGWataxANhfjaMj9obnz4V90ds/qCJsCJ1+ne8U63rLpbY9PKw429DbbxbyllliaallKtr0eqDXPkQnAYIq95wxOyOU61Gx+mutktj9lXaY+gMFWvEPBWyBdTp/vBUnah+Q2X/PJxLLTbZ+HULVXXZn6v5XY=; expires=Sat, 11 Jan 2020 16:46:15 GMT; max-age=7200; path=/; domain=.homedepot.com; HttpOnly, HD_DC=origin; Domain=.homedepot.com; Path=/, bm_mi=A1D5B9290F6548F860D6B6F2FAC32C8B~stRzt3tMlDmqYxeaHjQi6UqCOIKxWQ2qAnzEc4EnhjucCBNcSxfA0Z37QMFaoXSRYsTMZW9LIdD1+IT+VEJ0tn/A0M/BcHxLYTrOyZsW3UYwdRzmk5Alpxs3QHOij9JieT05GId1uTu9lzVyQcBKzTi1uGIhjXGgRxHx1eLiVTBRNP8nVEfyH5vFne+dUfugK1jWyitzOkQ2lCaRyO7JwpOUOBrr3YYNluYotv0WD6c=; Domain=.homedepot.com; Path=/; Max-Age=0; HttpOnly, bm_sz=B540DB6F2E43474832D0AD5D3E445981~YAAQTja50E47J5NvAQAAAOURlQZHA13XaiVYzsvRHau9Y4CGRxH8/rEbxLVgCFdtddHKK6V3h0mtM2QdKScBNZX5QFVEgUOTN2ANNvlMqm78vicqHXCroiP1N9I/AnQ1o/YEJcLs/OeqNDO8kwPJdVo6/bmy1o9qg0GjzDWOCVvfILUtGWIu72+loWBOr5uaK1Gz; Domain=.homedepot.com; Path=/; Expires=Sat, 11 Jan 2020 18:46:15 GMT; Max-Age=14400; HttpOnly, _abck=E176316381419F35D9247CE79C42F0E2~-1~YAAQTja50E87J5NvAQAAAOURlQPDkNZTnEpTRyK72q+oqE/G6zRWfCo1281vEmcLLkIy0SknUy2BXKLfluOEE6+nyp3HP+a13zb0gnl8MeCi8PM4Fyn6zep8rRTIn+qwu+Xujgs5C0pL0OIhbw/fjivG0prgS3a8r8BLzgJz0fu+GD2Pi5YzCWKPnRSzlMiFXOahKTYHnj+hBGjTNlBkqjL8lobGiFfQjakWKXiXIewA1nAMMaVBqA79o4ofUbUKFjasjfZ5X05eQmYcyYusPxrzCyXODam3gh8DrGLB/HdW0qllCPZD+NoZidmu~-1~-1~-1; Domain=.homedepot.com; Path=/; Expires=Sun, 10 Jan 2021 14:46:15 GMT; Max-Age=31536000; Secure
+D, [2020-01-11T09:46:15.476300 #3058] DEBUG -- : response-header: x-proto => secure
+D, [2020-01-11T09:46:15.476672 #3058] DEBUG -- : Read 14077 bytes (14077 total)
+D, [2020-01-11T09:46:15.486679 #3058] DEBUG -- : Read 16384 bytes (30461 total)
+D, [2020-01-11T09:46:15.486855 #3058] DEBUG -- : Read 1343 bytes (31804 total)
+D, [2020-01-11T09:46:15.487395 #3058] DEBUG -- : Read 12301 bytes (44105 total)
+D, [2020-01-11T09:46:15.487701 #3058] DEBUG -- : gzip response
+D, [2020-01-11T09:46:15.503750 #3058] DEBUG -- : saved cookie: akaau=1578754275~id=d018a7e7ea2dd5f618414f996f454d59
+D, [2020-01-11T09:46:15.504253 #3058] DEBUG -- : saved cookie: ak_bmsc=8415B5D88CF5F608E8DD88CC1E3A2AB8D0B9364EE76E0000B7DF195E10B87A3D~pl9wlCzk/Ek1quxyLUelwbYSrtVXZP9dU2ih5fZUS5Ho6xmkfHKZt1oUOam3JCq7z8IUHUJBiDfOfkHjySGWataxANhfjaMj9obnz4V90ds/qCJsCJ1+ne8U63rLpbY9PKw429DbbxbyllliaallKtr0eqDXPkQnAYIq95wxOyOU61Gx+mutktj9lXaY+gMFWvEPBWyBdTp/vBUnah+Q2X/PJxLLTbZ+HULVXXZn6v5XY=
+D, [2020-01-11T09:46:15.504360 #3058] DEBUG -- : saved cookie: HD_DC=origin
+D, [2020-01-11T09:46:15.504589 #3058] DEBUG -- : saved cookie: bm_mi=A1D5B9290F6548F860D6B6F2FAC32C8B~stRzt3tMlDmqYxeaHjQi6UqCOIKxWQ2qAnzEc4EnhjucCBNcSxfA0Z37QMFaoXSRYsTMZW9LIdD1+IT+VEJ0tn/A0M/BcHxLYTrOyZsW3UYwdRzmk5Alpxs3QHOij9JieT05GId1uTu9lzVyQcBKzTi1uGIhjXGgRxHx1eLiVTBRNP8nVEfyH5vFne+dUfugK1jWyitzOkQ2lCaRyO7JwpOUOBrr3YYNluYotv0WD6c=
+D, [2020-01-11T09:46:15.504762 #3058] DEBUG -- : saved cookie: bm_sz=B540DB6F2E43474832D0AD5D3E445981~YAAQTja50E47J5NvAQAAAOURlQZHA13XaiVYzsvRHau9Y4CGRxH8/rEbxLVgCFdtddHKK6V3h0mtM2QdKScBNZX5QFVEgUOTN2ANNvlMqm78vicqHXCroiP1N9I/AnQ1o/YEJcLs/OeqNDO8kwPJdVo6/bmy1o9qg0GjzDWOCVvfILUtGWIu72+loWBOr5uaK1Gz
+D, [2020-01-11T09:46:15.505028 #3058] DEBUG -- : saved cookie: _abck=E176316381419F35D9247CE79C42F0E2~-1~YAAQTja50E87J5NvAQAAAOURlQPDkNZTnEpTRyK72q+oqE/G6zRWfCo1281vEmcLLkIy0SknUy2BXKLfluOEE6+nyp3HP+a13zb0gnl8MeCi8PM4Fyn6zep8rRTIn+qwu+Xujgs5C0pL0OIhbw/fjivG0prgS3a8r8BLzgJz0fu+GD2Pi5YzCWKPnRSzlMiFXOahKTYHnj+hBGjTNlBkqjL8lobGiFfQjakWKXiXIewA1nAMMaVBqA79o4ofUbUKFjasjfZ5X05eQmYcyYusPxrzCyXODam3gh8DrGLB/HdW0qllCPZD+NoZidmu~-1~-1~-1
+I, [2020-01-11T09:46:33.379765 #3058]  INFO -- : Net::HTTP::Get: /
+D, [2020-01-11T09:46:33.379829 #3058] DEBUG -- : request-header: accept-encoding => gzip,deflate,identity
+D, [2020-01-11T09:46:33.379855 #3058] DEBUG -- : request-header: accept => */*
+D, [2020-01-11T09:46:33.379920 #3058] DEBUG -- : request-header: user-agent => Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_2) AppleWebKit/601.3.9 (KHTML, like Gecko) Version/9.0.2 Safari/601.3.9
+D, [2020-01-11T09:46:33.379944 #3058] DEBUG -- : request-header: accept-charset => ISO-8859-1,utf-8;q=0.7,*;q=0.7
+D, [2020-01-11T09:46:33.379964 #3058] DEBUG -- : request-header: accept-language => en-us,en;q=0.5
+D, [2020-01-11T09:46:33.379984 #3058] DEBUG -- : request-header: host => www.homedepot.com
+I, [2020-01-11T09:46:33.581364 #3058]  INFO -- : status: Net::HTTPOK 1.1 200 OK
+D, [2020-01-11T09:46:33.581492 #3058] DEBUG -- : response-header: content-encoding => gzip
+D, [2020-01-11T09:46:33.581542 #3058] DEBUG -- : response-header: x-device-type => desktop
+D, [2020-01-11T09:46:33.581582 #3058] DEBUG -- : response-header: accept-ranges => bytes
+D, [2020-01-11T09:46:33.581621 #3058] DEBUG -- : response-header: x-tm-zone => us-east4-a
+D, [2020-01-11T09:46:33.581657 #3058] DEBUG -- : response-header: content-language => en-US
+D, [2020-01-11T09:46:33.581694 #3058] DEBUG -- : response-header: server => nginx
+D, [2020-01-11T09:46:33.581731 #3058] DEBUG -- : response-header: x-varnish => 16292152 16128497
+D, [2020-01-11T09:46:33.581767 #3058] DEBUG -- : response-header: x-varnish-cache => HIT(18803)@default
+D, [2020-01-11T09:46:33.581834 #3058] DEBUG -- : response-header: vary => X-Device-Type,X-Proto,X-ALTEXP,Accept-Encoding
+D, [2020-01-11T09:46:33.581875 #3058] DEBUG -- : response-header: grace => none
+D, [2020-01-11T09:46:33.581912 #3058] DEBUG -- : response-header: content-type => text/html;charset=UTF-8
+D, [2020-01-11T09:46:33.581947 #3058] DEBUG -- : response-header: x-varnish-esi => true
+D, [2020-01-11T09:46:33.581983 #3058] DEBUG -- : response-header: x-akamai-transformed => 9 47390 0 pmb=mTOE,3
+D, [2020-01-11T09:46:33.582019 #3058] DEBUG -- : response-header: expires => Sat, 11 Jan 2020 14:46:33 GMT
+D, [2020-01-11T09:46:33.582054 #3058] DEBUG -- : response-header: cache-control => max-age=0, no-cache, no-store
+D, [2020-01-11T09:46:33.582090 #3058] DEBUG -- : response-header: pragma => no-cache
+D, [2020-01-11T09:46:33.582126 #3058] DEBUG -- : response-header: date => Sat, 11 Jan 2020 14:46:33 GMT
+D, [2020-01-11T09:46:33.582161 #3058] DEBUG -- : response-header: content-length => 44105
+D, [2020-01-11T09:46:33.582197 #3058] DEBUG -- : response-header: connection => keep-alive
+D, [2020-01-11T09:46:33.582236 #3058] DEBUG -- : response-header: set-cookie => akaau=1578754293~id=02c01d9b313c39cd608e87e3a71a84e6; path=/, ak_bmsc=3FE1A4F7D6D01E683FBB1A24E558B656D0B9365C054F0000C9DF195ED0954218~plxs5sN/6yI7YeRWohKRjPbbK5W9OXUCvCOr/Yy5cJuk4BtlbIqMLKjAkZbbO3AwEz8l//nTmbN2Mp+blm3IbVXjPJcOOFhkP7vsdRuiIYiWhBEJOfClOfklhsrj1RLTZNdroEjmEMrfz/YtXVakbOg7HTMbjyviR8N4j27Kb9yRoY0dDIjqeGbY3K+N+tZ/jWSBHAR3nO/lv+s48RrxKED9LEPgL6MJospx26BgFS5r8=; expires=Sat, 11 Jan 2020 16:46:33 GMT; max-age=7200; path=/; domain=.homedepot.com; HttpOnly, HD_DC=origin; Domain=.homedepot.com; Path=/, bm_mi=7D1EEB20677BA30ADFA85DA57FE7CB08~1zGN+VwJAXiuGFtcrOnwChQx3mHEcKLfwRB4WuVnlMTZh7gU6/d7JQ7r5s8tblkZoFF33eIivC7q7ggTjMYkWPIlILEqwqH040pGTWnPQDY8xeOG8BoYktEYOAiz3EIXJGpgOcUzVwx+TrwPKQX8M9ufSQOqZNYDdKaclgTD3NQMDgzPYojJbQxg0leM3oExjqvaNy+j/uwNQ4jRGZPREBct1i5r6cjt2RegMkslBmw=; Domain=.homedepot.com; Path=/; Max-Age=0; HttpOnly, bm_sz=50A8FFD9E9787A3C6A8B56F5FE4180A4~YAAQXDa50HvmeY9vAQAAvCsSlQaWYv2mSeQIj3fwarLdfjqvF7P2QRAlogRq8/eOrJ47kPptaLyviERWWa65frMCLsmAN3XpayXpVx1JfpHK3Ro/D+hA8sH3n9laQv1C1Q8iQKf7brgagM6Dh3AJ3HyH8SUtCrv0q0YQ/kBTLeAcUi/Ed+AuZa8YiyhPQtmuVvC2; Domain=.homedepot.com; Path=/; Expires=Sat, 11 Jan 2020 18:46:33 GMT; Max-Age=14400; HttpOnly, _abck=4F4FBC534EC2A21072876AB68FA82637~-1~YAAQXDa50HzmeY9vAQAAvCsSlQORSMhwKWzJPwgmAYerc2LAl2Y0qD/ssFxCULYg6ANcdxYZuuTGYlMP7ZbrATHnx1eE1LO8hTqv2ZcAtF7Efuc8SNWFgUeg82bnE+MxtoIc6YNTKLfIbshwbrEb828soESyjuTqC9u69AVijVjzSzoZJxODdAd8S9M5pPybLcs+qIAIyeSgTfNGcKL6awto1AMVNBb9t4bFb4Y2K+5jkOGy4zfR4j3HPEm8qCPm+yry1MUEMTaWaPdlTlMpC4lQGW8GQS/2xxg0+L0ScqnTmk2veEyjLl51FjrF~-1~-1~-1; Domain=.homedepot.com; Path=/; Expires=Sun, 10 Jan 2021 14:46:33 GMT; Max-Age=31536000; Secure
+D, [2020-01-11T09:46:33.582321 #3058] DEBUG -- : response-header: x-proto => secure
+D, [2020-01-11T09:46:33.582491 #3058] DEBUG -- : Read 14077 bytes (14077 total)
+D, [2020-01-11T09:46:33.593204 #3058] DEBUG -- : Read 16384 bytes (30461 total)
+D, [2020-01-11T09:46:33.593354 #3058] DEBUG -- : Read 1343 bytes (31804 total)
+D, [2020-01-11T09:46:33.593566 #3058] DEBUG -- : Read 12301 bytes (44105 total)
+D, [2020-01-11T09:46:33.593771 #3058] DEBUG -- : gzip response
+D, [2020-01-11T09:46:33.607716 #3058] DEBUG -- : saved cookie: akaau=1578754293~id=02c01d9b313c39cd608e87e3a71a84e6
+D, [2020-01-11T09:46:33.608167 #3058] DEBUG -- : saved cookie: ak_bmsc=3FE1A4F7D6D01E683FBB1A24E558B656D0B9365C054F0000C9DF195ED0954218~plxs5sN/6yI7YeRWohKRjPbbK5W9OXUCvCOr/Yy5cJuk4BtlbIqMLKjAkZbbO3AwEz8l//nTmbN2Mp+blm3IbVXjPJcOOFhkP7vsdRuiIYiWhBEJOfClOfklhsrj1RLTZNdroEjmEMrfz/YtXVakbOg7HTMbjyviR8N4j27Kb9yRoY0dDIjqeGbY3K+N+tZ/jWSBHAR3nO/lv+s48RrxKED9LEPgL6MJospx26BgFS5r8=
+D, [2020-01-11T09:46:33.608752 #3058] DEBUG -- : saved cookie: HD_DC=origin
+D, [2020-01-11T09:46:33.609034 #3058] DEBUG -- : saved cookie: bm_mi=7D1EEB20677BA30ADFA85DA57FE7CB08~1zGN+VwJAXiuGFtcrOnwChQx3mHEcKLfwRB4WuVnlMTZh7gU6/d7JQ7r5s8tblkZoFF33eIivC7q7ggTjMYkWPIlILEqwqH040pGTWnPQDY8xeOG8BoYktEYOAiz3EIXJGpgOcUzVwx+TrwPKQX8M9ufSQOqZNYDdKaclgTD3NQMDgzPYojJbQxg0leM3oExjqvaNy+j/uwNQ4jRGZPREBct1i5r6cjt2RegMkslBmw=
+D, [2020-01-11T09:46:33.609510 #3058] DEBUG -- : saved cookie: bm_sz=50A8FFD9E9787A3C6A8B56F5FE4180A4~YAAQXDa50HvmeY9vAQAAvCsSlQaWYv2mSeQIj3fwarLdfjqvF7P2QRAlogRq8/eOrJ47kPptaLyviERWWa65frMCLsmAN3XpayXpVx1JfpHK3Ro/D+hA8sH3n9laQv1C1Q8iQKf7brgagM6Dh3AJ3HyH8SUtCrv0q0YQ/kBTLeAcUi/Ed+AuZa8YiyhPQtmuVvC2
+D, [2020-01-11T09:46:33.609773 #3058] DEBUG -- : saved cookie: _abck=4F4FBC534EC2A21072876AB68FA82637~-1~YAAQXDa50HzmeY9vAQAAvCsSlQORSMhwKWzJPwgmAYerc2LAl2Y0qD/ssFxCULYg6ANcdxYZuuTGYlMP7ZbrATHnx1eE1LO8hTqv2ZcAtF7Efuc8SNWFgUeg82bnE+MxtoIc6YNTKLfIbshwbrEb828soESyjuTqC9u69AVijVjzSzoZJxODdAd8S9M5pPybLcs+qIAIyeSgTfNGcKL6awto1AMVNBb9t4bFb4Y2K+5jkOGy4zfR4j3HPEm8qCPm+yry1MUEMTaWaPdlTlMpC4lQGW8GQS/2xxg0+L0ScqnTmk2veEyjLl51FjrF~-1~-1~-1
+I, [2020-01-11T09:48:12.228837 #3058]  INFO -- : Net::HTTP::Get: /
+D, [2020-01-11T09:48:12.228953 #3058] DEBUG -- : request-header: accept-encoding => gzip,deflate,identity
+D, [2020-01-11T09:48:12.228988 #3058] DEBUG -- : request-header: accept => */*
+D, [2020-01-11T09:48:12.229011 #3058] DEBUG -- : request-header: user-agent => Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_2) AppleWebKit/601.3.9 (KHTML, like Gecko) Version/9.0.2 Safari/601.3.9
+D, [2020-01-11T09:48:12.229033 #3058] DEBUG -- : request-header: accept-charset => ISO-8859-1,utf-8;q=0.7,*;q=0.7
+D, [2020-01-11T09:48:12.229053 #3058] DEBUG -- : request-header: accept-language => en-us,en;q=0.5
+D, [2020-01-11T09:48:12.229095 #3058] DEBUG -- : request-header: host => www.homedepot.com
+I, [2020-01-11T09:48:12.462866 #3058]  INFO -- : status: Net::HTTPOK 1.1 200 OK
+D, [2020-01-11T09:48:12.463025 #3058] DEBUG -- : response-header: content-encoding => gzip
+D, [2020-01-11T09:48:12.463155 #3058] DEBUG -- : response-header: x-device-type => desktop
+D, [2020-01-11T09:48:12.463213 #3058] DEBUG -- : response-header: accept-ranges => bytes
+D, [2020-01-11T09:48:12.463240 #3058] DEBUG -- : response-header: x-tm-zone => us-east4-c
+D, [2020-01-11T09:48:12.463261 #3058] DEBUG -- : response-header: content-language => en-US
+D, [2020-01-11T09:48:12.463281 #3058] DEBUG -- : response-header: server => nginx
+D, [2020-01-11T09:48:12.463300 #3058] DEBUG -- : response-header: x-varnish => 16357212 16128497
+D, [2020-01-11T09:48:12.463318 #3058] DEBUG -- : response-header: x-varnish-cache => HIT(19699)@default
+D, [2020-01-11T09:48:12.463337 #3058] DEBUG -- : response-header: vary => X-Device-Type,X-Proto,X-ALTEXP,Accept-Encoding
+D, [2020-01-11T09:48:12.463357 #3058] DEBUG -- : response-header: grace => none
+D, [2020-01-11T09:48:12.463375 #3058] DEBUG -- : response-header: content-type => text/html;charset=UTF-8
+D, [2020-01-11T09:48:12.463393 #3058] DEBUG -- : response-header: x-varnish-esi => true
+D, [2020-01-11T09:48:12.463411 #3058] DEBUG -- : response-header: x-akamai-transformed => 9 47390 0 pmb=mTOE,3
+D, [2020-01-11T09:48:12.463429 #3058] DEBUG -- : response-header: expires => Sat, 11 Jan 2020 14:48:12 GMT
+D, [2020-01-11T09:48:12.463448 #3058] DEBUG -- : response-header: cache-control => max-age=0, no-cache, no-store
+D, [2020-01-11T09:48:12.463466 #3058] DEBUG -- : response-header: pragma => no-cache
+D, [2020-01-11T09:48:12.463508 #3058] DEBUG -- : response-header: date => Sat, 11 Jan 2020 14:48:12 GMT
+D, [2020-01-11T09:48:12.463527 #3058] DEBUG -- : response-header: content-length => 44105
+D, [2020-01-11T09:48:12.463545 #3058] DEBUG -- : response-header: connection => keep-alive
+D, [2020-01-11T09:48:12.463566 #3058] DEBUG -- : response-header: set-cookie => akaau=1578754392~id=f1a6c69d66e3f79f57180f199df241cd; path=/, ak_bmsc=47432B0072EE3AB34B719C42E22CE4E7D0B9364D9E4100002CE0195EB68DF10D~plkd4T9av0eYChM2SIoNXnMucA7G2XDm7guOb3l8jKeKd7I4V7UkERVmuczc9l4ALlPeXvqJl3qBV7ZxfSwjNjkozPHdmo/GCAPw8wYe1RDLfWAjFZopVmAz3YTtf/MAwI+3686oUF54/5fMW6R6hmZjEEW4FzoSIDK4eLDQ5eKVslI08NfznAVmcGigCYCzCwcoqcFLVqqKa8II0r/Z+yQizF7wVd7OVJwDLAzeeGD+w=; expires=Sat, 11 Jan 2020 16:48:12 GMT; max-age=7200; path=/; domain=.homedepot.com; HttpOnly, HD_DC=origin; Domain=.homedepot.com; Path=/, bm_mi=58F1195D9787938706BD0354AE81B7CD~gY56A8Lo+WFUiAH2Z2goCAFeOFCz4z1AUDIHlqWQeYWqxl3aVDNoCKVSD1n+AAvQCyw8e/qdo2IdddjeWwA230ydtrLWZk96Bclymf80YGJ6wP5bQ5JSZCP1GaBiaMRVe4zfyzcZpjGEUEtU0SYU2zfnvqkflmXaX32Tm+pl0uMnIe/z5hsD2Z+Jt2negC98oZbVe/Tmyl58qZSD8vHuPWyYN/79AGOKXHR7qzzAgA4=; Domain=.homedepot.com; Path=/; Max-Age=0; HttpOnly, bm_sz=DE25DF29F86CF887DE6EBF767EFC20D3~YAAQTTa50JAowopvAQAAAK4TlQY8amDityz19i1YCtu9mRNGEJ6EyyOb5tGBivIho3fT7braZuGY7plQrdCl8KU7/lWkxb1crzBWLRPei5okpEJ3FE/EOmIUZ1TRJ9vqv7gJ0H27SHIkkEnK3HIH4a7dfWqP9KtfmyV5Jrc4caQXRcQoeCINVZ8n5EUCWqhMySLH; Domain=.homedepot.com; Path=/; Expires=Sat, 11 Jan 2020 18:48:12 GMT; Max-Age=14400; HttpOnly, _abck=749B1B1D4FD9CDF1D33F3FB33B94C153~-1~YAAQTTa50JEowopvAQAAAK4TlQMrkF0V+MNj1ZQ9r4xxbS9IDLfWiu121HlSSt6d6N1Jy0GIWT4RhO5JRgQlZ8RT3CaqKM8xUrAk4K+tK8Ihhk3imIlWPA6TJ39r1QSiyjZPvXK+Y/u6EycGZut4IZFJc+PfzOklT80l21D1aFA+FRWpCfH3DLFM8GsWpY5ZH9zv8h2hziUl+jUZA+Qv83crQDrZEKNUPFvaSB3rbAcUf0fvPwo9UbEn6AWSB68Xa6ljhbL1dTErMkfFH7f60dPL9N7zcoWa5dDjBCpGIASNXV+rKbB6sWoStJo2~-1~-1~-1; Domain=.homedepot.com; Path=/; Expires=Sun, 10 Jan 2021 14:48:12 GMT; Max-Age=31536000; Secure
+D, [2020-01-11T09:48:12.463586 #3058] DEBUG -- : response-header: x-proto => secure
+D, [2020-01-11T09:48:12.463661 #3058] DEBUG -- : Read 14077 bytes (14077 total)
+D, [2020-01-11T09:48:12.473274 #3058] DEBUG -- : Read 16384 bytes (30461 total)
+D, [2020-01-11T09:48:12.473461 #3058] DEBUG -- : Read 1343 bytes (31804 total)
+D, [2020-01-11T09:48:12.473775 #3058] DEBUG -- : Read 12301 bytes (44105 total)
+D, [2020-01-11T09:48:12.474142 #3058] DEBUG -- : gzip response
+D, [2020-01-11T09:48:12.488833 #3058] DEBUG -- : saved cookie: akaau=1578754392~id=f1a6c69d66e3f79f57180f199df241cd
+D, [2020-01-11T09:48:12.489111 #3058] DEBUG -- : saved cookie: ak_bmsc=47432B0072EE3AB34B719C42E22CE4E7D0B9364D9E4100002CE0195EB68DF10D~plkd4T9av0eYChM2SIoNXnMucA7G2XDm7guOb3l8jKeKd7I4V7UkERVmuczc9l4ALlPeXvqJl3qBV7ZxfSwjNjkozPHdmo/GCAPw8wYe1RDLfWAjFZopVmAz3YTtf/MAwI+3686oUF54/5fMW6R6hmZjEEW4FzoSIDK4eLDQ5eKVslI08NfznAVmcGigCYCzCwcoqcFLVqqKa8II0r/Z+yQizF7wVd7OVJwDLAzeeGD+w=
+D, [2020-01-11T09:48:12.489332 #3058] DEBUG -- : saved cookie: HD_DC=origin
+D, [2020-01-11T09:48:12.489609 #3058] DEBUG -- : saved cookie: bm_mi=58F1195D9787938706BD0354AE81B7CD~gY56A8Lo+WFUiAH2Z2goCAFeOFCz4z1AUDIHlqWQeYWqxl3aVDNoCKVSD1n+AAvQCyw8e/qdo2IdddjeWwA230ydtrLWZk96Bclymf80YGJ6wP5bQ5JSZCP1GaBiaMRVe4zfyzcZpjGEUEtU0SYU2zfnvqkflmXaX32Tm+pl0uMnIe/z5hsD2Z+Jt2negC98oZbVe/Tmyl58qZSD8vHuPWyYN/79AGOKXHR7qzzAgA4=
+D, [2020-01-11T09:48:12.489949 #3058] DEBUG -- : saved cookie: bm_sz=DE25DF29F86CF887DE6EBF767EFC20D3~YAAQTTa50JAowopvAQAAAK4TlQY8amDityz19i1YCtu9mRNGEJ6EyyOb5tGBivIho3fT7braZuGY7plQrdCl8KU7/lWkxb1crzBWLRPei5okpEJ3FE/EOmIUZ1TRJ9vqv7gJ0H27SHIkkEnK3HIH4a7dfWqP9KtfmyV5Jrc4caQXRcQoeCINVZ8n5EUCWqhMySLH
+D, [2020-01-11T09:48:12.490198 #3058] DEBUG -- : saved cookie: _abck=749B1B1D4FD9CDF1D33F3FB33B94C153~-1~YAAQTTa50JEowopvAQAAAK4TlQMrkF0V+MNj1ZQ9r4xxbS9IDLfWiu121HlSSt6d6N1Jy0GIWT4RhO5JRgQlZ8RT3CaqKM8xUrAk4K+tK8Ihhk3imIlWPA6TJ39r1QSiyjZPvXK+Y/u6EycGZut4IZFJc+PfzOklT80l21D1aFA+FRWpCfH3DLFM8GsWpY5ZH9zv8h2hziUl+jUZA+Qv83crQDrZEKNUPFvaSB3rbAcUf0fvPwo9UbEn6AWSB68Xa6ljhbL1dTErMkfFH7f60dPL9N7zcoWa5dDjBCpGIASNXV+rKbB6sWoStJo2~-1~-1~-1
+I, [2020-01-11T09:57:00.009170 #3058]  INFO -- : Net::HTTP::Get: /p/Milwaukee-M18-18-Volt-Lithium-Ion-Cordless-3-8-in-Impact-Wrench-W-Friction-Ring-Tool-Only-2658-20/204677823
+D, [2020-01-11T09:57:00.009267 #3058] DEBUG -- : request-header: accept-encoding => gzip,deflate,identity
+D, [2020-01-11T09:57:00.009308 #3058] DEBUG -- : request-header: accept => */*
+D, [2020-01-11T09:57:00.009343 #3058] DEBUG -- : request-header: user-agent => Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_2) AppleWebKit/601.3.9 (KHTML, like Gecko) Version/9.0.2 Safari/601.3.9
+D, [2020-01-11T09:57:00.009377 #3058] DEBUG -- : request-header: accept-charset => ISO-8859-1,utf-8;q=0.7,*;q=0.7
+D, [2020-01-11T09:57:00.009409 #3058] DEBUG -- : request-header: accept-language => en-us,en;q=0.5
+D, [2020-01-11T09:57:00.009440 #3058] DEBUG -- : request-header: host => www.homedepot.com
+I, [2020-01-11T09:57:00.363288 #3058]  INFO -- : status: Net::HTTPOK 1.1 200 OK
+D, [2020-01-11T09:57:00.363495 #3058] DEBUG -- : response-header: content-encoding => gzip
+D, [2020-01-11T09:57:00.363568 #3058] DEBUG -- : response-header: x-device-type => desktop
+D, [2020-01-11T09:57:00.363624 #3058] DEBUG -- : response-header: accept-ranges => bytes
+D, [2020-01-11T09:57:00.363671 #3058] DEBUG -- : response-header: x-tm-zone => us-east4-c
+D, [2020-01-11T09:57:00.363713 #3058] DEBUG -- : response-header: content-language => en-US
+D, [2020-01-11T09:57:00.363751 #3058] DEBUG -- : response-header: server => nginx
+D, [2020-01-11T09:57:00.363855 #3058] DEBUG -- : response-header: x-varnish => 276686009 275557634
+D, [2020-01-11T09:57:00.363896 #3058] DEBUG -- : response-header: x-varnish-cache => HIT(5)@default
+D, [2020-01-11T09:57:00.363924 #3058] DEBUG -- : response-header: vary => X-ALTEXP,X-Device-Type, Accept-Encoding
+D, [2020-01-11T09:57:00.363947 #3058] DEBUG -- : response-header: grace => none
+D, [2020-01-11T09:57:00.363971 #3058] DEBUG -- : response-header: content-type => text/html;charset=utf-8
+D, [2020-01-11T09:57:00.363994 #3058] DEBUG -- : response-header: x-application-context => PIP:vulcan,prod-settings,vulcan-prod,hd-online-prod:8080
+D, [2020-01-11T09:57:00.364076 #3058] DEBUG -- : response-header: x-varnish-esi => true
+D, [2020-01-11T09:57:00.364117 #3058] DEBUG -- : response-header: x-akamai-transformed => 9 83207 0 pmb=mTOE,3
+D, [2020-01-11T09:57:00.364225 #3058] DEBUG -- : response-header: expires => Sat, 11 Jan 2020 14:57:00 GMT
+D, [2020-01-11T09:57:00.364268 #3058] DEBUG -- : response-header: cache-control => max-age=0, no-cache, no-store
+D, [2020-01-11T09:57:00.364291 #3058] DEBUG -- : response-header: pragma => no-cache
+D, [2020-01-11T09:57:00.364311 #3058] DEBUG -- : response-header: date => Sat, 11 Jan 2020 14:57:00 GMT
+D, [2020-01-11T09:57:00.364330 #3058] DEBUG -- : response-header: content-length => 79016
+D, [2020-01-11T09:57:00.364347 #3058] DEBUG -- : response-header: connection => keep-alive
+D, [2020-01-11T09:57:00.364369 #3058] DEBUG -- : response-header: set-cookie => akaau=1578754920~id=f843b54f20694a8fb21d6175441dfac9; path=/, ak_bmsc=ADD9EC8BDD263258A63B8E2514BFA077B81A2C1E5B5E00003CE2195E0C8D6668~plS/eeZrUs8IH2/Vv3HzED9EAvPoj6+3uuc6Bfw0KRB1eKLrW/ceM/25G0kOdKqTMvvVxY2TG9DqRNuhihlIrA5dICPcVBZEVupS25oQDNtt2q9Fo3XBIHmP+MmUXz/8co4t+JaiQnE9ziNvMnzTjJWZXbmiobXimLfkk3EE3EYFzpdA4ZIXgMVIOT0kbvKNEIa2JWY5pVjeUDmkKxii1t7hwZ0+nSMpKDnbngU77LdtY=; expires=Sat, 11 Jan 2020 16:57:00 GMT; max-age=7200; path=/; domain=.homedepot.com; HttpOnly, HD_DC=origin; Domain=.homedepot.com; Path=/, bm_mi=1A5A3578BD1C7E1D9CFB6EB9EAE3BEBF~urRW1G9A3pJgEPa42DAtb8WwQ0tEAara4f7vfZeMc1Mh9rtJlANnj1JtIRz9AOUB6/Iz41JkTBaur8ErUSpV86/e4GiGPonBcGGPwGl8vuCNozivSGOyJtQ34ZFHuthdBfMhqAv9ZtpoA9w6FjZ3kuKW9gQEqALer2NrnBfcTUQ9r1ArRnCMxTab7WUMyQOEi3FRy/CkoWsyf4yaYWqNPr9/z0DwFWXegHC2uyCrxczarUovP/lT3IinB29GPWlEjw4dUBTg8YdZ7sSTWgO1x7ji+UD7Mp2lJiWDijXX5FHqclaNhTPKsCZdxzIx6E+9NYdULQM/w9Y5kz9gDjpOcJWpyISE6BGZbpvrEkpGtLyCH7kETxwsXy7S0nfUD9IP; Domain=.homedepot.com; Path=/; Max-Age=0; HttpOnly, bm_sz=74CAFDCBD01714BDD925237BFC6A8D78~YAAQHiwauEWa4XxuAQAAxrsblQY/oDtEbr2qvv0slLY7bDLF1vGZ/3o+/l5Of6AUprzUG9mIrp7NB43rOpmWinEV78SrJSsbSj/QO7t4p3me49oDclH/M6bE9Lmue9ph+kvah593XfMy36kpkW8sb+Q6KQyM7Y6xpc2bf8aLFq2oi/MwwlQy+wwsZqpvTVg+9IGy; Domain=.homedepot.com; Path=/; Expires=Sat, 11 Jan 2020 18:57:00 GMT; Max-Age=14400; HttpOnly, _abck=4B48EED7991A88538FF47C1463A94385~-1~YAAQHiwauEaa4XxuAQAAxrsblQOn6DyT7AMrdQod4+UrYzqPYFHnS2364cq6D+GJS9Pi0Z+j9Sd/czCCKIzcCMFvHtnbsmVGOMQGU/4z9UJ6FR2pm/8RK8Ym6W2PvIxxsOiDHnpTpWHdalJ5JXLA7E9g86g9PTHWnW1+iEXKlqYjEreAjySQ0ltDTMAGFCZ0rtmZQSsh73oCMdsOaJyoFQDLI31haZ3wjvGnCQYAPE5Xebl0TYXTxVS1Wt3AbIMbBPqKuXwqi2k1CrFFB6DXm+RLCQEdj11WVC5zpDwoCnaO3GEJ5EQ4O/knNSem~-1~-1~-1; Domain=.homedepot.com; Path=/; Expires=Sun, 10 Jan 2021 14:57:00 GMT; Max-Age=31536000; Secure
+D, [2020-01-11T09:57:00.364390 #3058] DEBUG -- : response-header: x-proto => secure
+D, [2020-01-11T09:57:00.364470 #3058] DEBUG -- : Read 13857 bytes (13857 total)
+D, [2020-01-11T09:57:00.374832 #3058] DEBUG -- : Read 16384 bytes (30241 total)
+D, [2020-01-11T09:57:00.374999 #3058] DEBUG -- : Read 1384 bytes (31625 total)
+D, [2020-01-11T09:57:00.376261 #3058] DEBUG -- : Read 16384 bytes (48009 total)
+D, [2020-01-11T09:57:00.377061 #3058] DEBUG -- : Read 16192 bytes (64201 total)
+D, [2020-01-11T09:57:00.389024 #3058] DEBUG -- : Read 14815 bytes (79016 total)
+D, [2020-01-11T09:57:00.389238 #3058] DEBUG -- : gzip response
+D, [2020-01-11T09:57:00.413067 #3058] DEBUG -- : saved cookie: akaau=1578754920~id=f843b54f20694a8fb21d6175441dfac9
+D, [2020-01-11T09:57:00.413670 #3058] DEBUG -- : saved cookie: ak_bmsc=ADD9EC8BDD263258A63B8E2514BFA077B81A2C1E5B5E00003CE2195E0C8D6668~plS/eeZrUs8IH2/Vv3HzED9EAvPoj6+3uuc6Bfw0KRB1eKLrW/ceM/25G0kOdKqTMvvVxY2TG9DqRNuhihlIrA5dICPcVBZEVupS25oQDNtt2q9Fo3XBIHmP+MmUXz/8co4t+JaiQnE9ziNvMnzTjJWZXbmiobXimLfkk3EE3EYFzpdA4ZIXgMVIOT0kbvKNEIa2JWY5pVjeUDmkKxii1t7hwZ0+nSMpKDnbngU77LdtY=
+D, [2020-01-11T09:57:00.413936 #3058] DEBUG -- : saved cookie: HD_DC=origin
+D, [2020-01-11T09:57:00.414224 #3058] DEBUG -- : saved cookie: bm_mi=1A5A3578BD1C7E1D9CFB6EB9EAE3BEBF~urRW1G9A3pJgEPa42DAtb8WwQ0tEAara4f7vfZeMc1Mh9rtJlANnj1JtIRz9AOUB6/Iz41JkTBaur8ErUSpV86/e4GiGPonBcGGPwGl8vuCNozivSGOyJtQ34ZFHuthdBfMhqAv9ZtpoA9w6FjZ3kuKW9gQEqALer2NrnBfcTUQ9r1ArRnCMxTab7WUMyQOEi3FRy/CkoWsyf4yaYWqNPr9/z0DwFWXegHC2uyCrxczarUovP/lT3IinB29GPWlEjw4dUBTg8YdZ7sSTWgO1x7ji+UD7Mp2lJiWDijXX5FHqclaNhTPKsCZdxzIx6E+9NYdULQM/w9Y5kz9gDjpOcJWpyISE6BGZbpvrEkpGtLyCH7kETxwsXy7S0nfUD9IP
+D, [2020-01-11T09:57:00.414959 #3058] DEBUG -- : saved cookie: bm_sz=74CAFDCBD01714BDD925237BFC6A8D78~YAAQHiwauEWa4XxuAQAAxrsblQY/oDtEbr2qvv0slLY7bDLF1vGZ/3o+/l5Of6AUprzUG9mIrp7NB43rOpmWinEV78SrJSsbSj/QO7t4p3me49oDclH/M6bE9Lmue9ph+kvah593XfMy36kpkW8sb+Q6KQyM7Y6xpc2bf8aLFq2oi/MwwlQy+wwsZqpvTVg+9IGy
+D, [2020-01-11T09:57:00.415363 #3058] DEBUG -- : saved cookie: _abck=4B48EED7991A88538FF47C1463A94385~-1~YAAQHiwauEaa4XxuAQAAxrsblQOn6DyT7AMrdQod4+UrYzqPYFHnS2364cq6D+GJS9Pi0Z+j9Sd/czCCKIzcCMFvHtnbsmVGOMQGU/4z9UJ6FR2pm/8RK8Ym6W2PvIxxsOiDHnpTpWHdalJ5JXLA7E9g86g9PTHWnW1+iEXKlqYjEreAjySQ0ltDTMAGFCZ0rtmZQSsh73oCMdsOaJyoFQDLI31haZ3wjvGnCQYAPE5Xebl0TYXTxVS1Wt3AbIMbBPqKuXwqi2k1CrFFB6DXm+RLCQEdj11WVC5zpDwoCnaO3GEJ5EQ4O/knNSem~-1~-1~-1
+I, [2020-01-11T19:28:15.295474 #3058]  INFO -- : Net::HTTP::Get: /p/Milwaukee-M18-18-Volt-Lithium-Ion-Cordless-3-8-in-Impact-Wrench-W-Friction-Ring-Tool-Only-2658-20/204677823
+D, [2020-01-11T19:28:15.297000 #3058] DEBUG -- : request-header: accept-encoding => gzip,deflate,identity
+D, [2020-01-11T19:28:15.297236 #3058] DEBUG -- : request-header: accept => */*
+D, [2020-01-11T19:28:15.297384 #3058] DEBUG -- : request-header: user-agent => Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_2) AppleWebKit/601.3.9 (KHTML, like Gecko) Version/9.0.2 Safari/601.3.9
+D, [2020-01-11T19:28:15.297516 #3058] DEBUG -- : request-header: accept-charset => ISO-8859-1,utf-8;q=0.7,*;q=0.7
+D, [2020-01-11T19:28:15.297584 #3058] DEBUG -- : request-header: accept-language => en-us,en;q=0.5
+D, [2020-01-11T19:28:15.297654 #3058] DEBUG -- : request-header: host => www.homedepot.com
+I, [2020-01-11T19:28:16.400142 #3058]  INFO -- : status: Net::HTTPOK 1.1 200 OK
+D, [2020-01-11T19:28:16.400259 #3058] DEBUG -- : response-header: content-encoding => gzip
+D, [2020-01-11T19:28:16.400288 #3058] DEBUG -- : response-header: x-device-type => desktop
+D, [2020-01-11T19:28:16.400331 #3058] DEBUG -- : response-header: accept-ranges => bytes
+D, [2020-01-11T19:28:16.400353 #3058] DEBUG -- : response-header: x-tm-zone => us-east4-a
+D, [2020-01-11T19:28:16.400411 #3058] DEBUG -- : response-header: content-language => en-US
+D, [2020-01-11T19:28:16.400438 #3058] DEBUG -- : response-header: server => nginx
+D, [2020-01-11T19:28:16.400489 #3058] DEBUG -- : response-header: x-varnish => 306442791
+D, [2020-01-11T19:28:16.400553 #3058] DEBUG -- : response-header: x-varnish-cache => MISS@default
+D, [2020-01-11T19:28:16.400594 #3058] DEBUG -- : response-header: vary => X-ALTEXP,X-Device-Type, Accept-Encoding
+D, [2020-01-11T19:28:16.401409 #3058] DEBUG -- : response-header: grace => none
+D, [2020-01-11T19:28:16.401438 #3058] DEBUG -- : response-header: content-type => text/html;charset=utf-8
+D, [2020-01-11T19:28:16.401459 #3058] DEBUG -- : response-header: x-application-context => PIP:vulcan,prod-settings,vulcan-prod,hd-online-prod:8080
+D, [2020-01-11T19:28:16.401481 #3058] DEBUG -- : response-header: x-varnish-esi => true
+D, [2020-01-11T19:28:16.401502 #3058] DEBUG -- : response-header: x-akamai-transformed => 9 - 0 pmb=mTOE,3
+D, [2020-01-11T19:28:16.401522 #3058] DEBUG -- : response-header: expires => Sun, 12 Jan 2020 00:28:16 GMT
+D, [2020-01-11T19:28:16.401542 #3058] DEBUG -- : response-header: cache-control => max-age=0, no-cache, no-store
+D, [2020-01-11T19:28:16.401562 #3058] DEBUG -- : response-header: pragma => no-cache
+D, [2020-01-11T19:28:16.401582 #3058] DEBUG -- : response-header: date => Sun, 12 Jan 2020 00:28:16 GMT
+D, [2020-01-11T19:28:16.401605 #3058] DEBUG -- : response-header: content-length => 79014
+D, [2020-01-11T19:28:16.401636 #3058] DEBUG -- : response-header: connection => keep-alive
+D, [2020-01-11T19:28:16.401671 #3058] DEBUG -- : response-header: set-cookie => akaau=1578789196~id=3e72986300df66a2f6b937e6f99074eb; path=/, ak_bmsc=16DBD95432EB477103D70EA6EB725E05D0B9364EE76E000020681A5E9C476A54~plN1O/p0mfWWw+pPGEaYMqBxQEls8YskrlC5dhai2thbCIEwpZM8r+Yi5MFxh9TCL1NyrOFCNOa3V3WKokMnLq7f1KL01zgOOmlHydSPEALlPPmRWjGrmYEzL1QrnPBXOselTsIACO8Qk2XJpSoepCUrpItsqSg/enX074auN+qPZCRe1vaI3RGDOja+M7B392yWJLvAGrB9t11kveVZF5X+PI9carSLKXUF0E1QBesJs=; expires=Sun, 12 Jan 2020 02:28:16 GMT; max-age=7200; path=/; domain=.homedepot.com; HttpOnly, HD_DC=origin; Domain=.homedepot.com; Path=/, bm_mi=EFF2F52A624A3854F1101C5826111D7F~stRzt3tMlDmqYxeaHjQi6cF4Bn2vnyHlSbjkQw+UTjWGm0jUoi9MJ4mUDRfggfTt8fRl8q3MhELrVnkf4uvSBeXQELuHrFikYH83ttXArFLWzgDquULE6tu4ATTK/f/b6ysmo05N4lcpOrUYUD32k4kqvy/19zC4u4LWAWSQvQwuynWZYmYDj4pwaajqtdL2urCzZgZqHoQHIVgX0RMzDHbnmKiThJMBZVdbIIC34QHFd5kRPLZ0toGl084kerECA38QfGjjP7XTWj93b+qT0vCv62PcBhsiCMAiEheavWVXCHFmfEbI/D4DZgduyyOVz1RTJDKiOOqzaaFs8CBcDTa5Ibw8IPefkie5YoBw7bhW/RymcGZfv3/N1Wcadt8k; Domain=.homedepot.com; Path=/; Max-Age=0; HttpOnly, bm_sz=C122A68CF7AFAE921393CF4D2341F032~YAAQTja50MvmOJNvAQAAfL4mlwZW75zpgkkiJohDXz72zpMt6wK+HPc9XFUrlvQjszXYEu7lzXpxGcnJQWRXfd1TarG7pwdnsVM2eG2tug/HxsZme35fhfcBJaljSD2l2aOkV2UtQ90CM88how7nsm51liqKHUX+jV8aHsrP0Gk1zcBHMhLes5vUvGJexp3Q5GLq; Domain=.homedepot.com; Path=/; Expires=Sun, 12 Jan 2020 04:28:15 GMT; Max-Age=14399; HttpOnly, _abck=330C0D98511C9E693814C050FED87BF7~-1~YAAQTja50MzmOJNvAQAAfL4mlwN663aQfiDir7YJRbcGsMuVgoCzAtM9IDM9WbWLgu2eHvlx2BWuBfABhkiOcl8puh7Y6uyceN0is0Aiple2F9Vh40Bw74UxdV4faWjzH2ihgwx7UQMDGbkl5Rvgf0yuvPaHtvHw0F0vLQDlmw6RNXaXV9/St3ft6MIjk96X9bPklxAhRljSPB2PsKh7J4dGK2uSxriPFgpYy3JCYdGir/8/iMgfrnQNj9UJmOW1koyiy1tfgfaROwim73mSymEaFllXcKdCB4gVYpYGrjmv/Ln0I4Qd5EDFQzwm~-1~-1~-1; Domain=.homedepot.com; Path=/; Expires=Mon, 11 Jan 2021 00:28:16 GMT; Max-Age=31536000; Secure
+D, [2020-01-11T19:28:16.401730 #3058] DEBUG -- : response-header: x-proto => secure
+D, [2020-01-11T19:28:16.402367 #3058] DEBUG -- : Read 13873 bytes (13873 total)
+D, [2020-01-11T19:28:16.410691 #3058] DEBUG -- : Read 16384 bytes (30257 total)
+D, [2020-01-11T19:28:16.410862 #3058] DEBUG -- : Read 1359 bytes (31616 total)
+D, [2020-01-11T19:28:16.411003 #3058] DEBUG -- : Read 16384 bytes (48000 total)
+D, [2020-01-11T19:28:16.411170 #3058] DEBUG -- : Read 16192 bytes (64192 total)
+D, [2020-01-11T19:28:16.426464 #3058] DEBUG -- : Read 14822 bytes (79014 total)
+D, [2020-01-11T19:28:16.428332 #3058] DEBUG -- : gzip response
+D, [2020-01-11T19:28:16.463898 #3058] DEBUG -- : saved cookie: akaau=1578789196~id=3e72986300df66a2f6b937e6f99074eb
+D, [2020-01-11T19:28:16.466756 #3058] DEBUG -- : saved cookie: ak_bmsc=16DBD95432EB477103D70EA6EB725E05D0B9364EE76E000020681A5E9C476A54~plN1O/p0mfWWw+pPGEaYMqBxQEls8YskrlC5dhai2thbCIEwpZM8r+Yi5MFxh9TCL1NyrOFCNOa3V3WKokMnLq7f1KL01zgOOmlHydSPEALlPPmRWjGrmYEzL1QrnPBXOselTsIACO8Qk2XJpSoepCUrpItsqSg/enX074auN+qPZCRe1vaI3RGDOja+M7B392yWJLvAGrB9t11kveVZF5X+PI9carSLKXUF0E1QBesJs=
+D, [2020-01-11T19:28:16.466944 #3058] DEBUG -- : saved cookie: HD_DC=origin
+D, [2020-01-11T19:28:16.467197 #3058] DEBUG -- : saved cookie: bm_mi=EFF2F52A624A3854F1101C5826111D7F~stRzt3tMlDmqYxeaHjQi6cF4Bn2vnyHlSbjkQw+UTjWGm0jUoi9MJ4mUDRfggfTt8fRl8q3MhELrVnkf4uvSBeXQELuHrFikYH83ttXArFLWzgDquULE6tu4ATTK/f/b6ysmo05N4lcpOrUYUD32k4kqvy/19zC4u4LWAWSQvQwuynWZYmYDj4pwaajqtdL2urCzZgZqHoQHIVgX0RMzDHbnmKiThJMBZVdbIIC34QHFd5kRPLZ0toGl084kerECA38QfGjjP7XTWj93b+qT0vCv62PcBhsiCMAiEheavWVXCHFmfEbI/D4DZgduyyOVz1RTJDKiOOqzaaFs8CBcDTa5Ibw8IPefkie5YoBw7bhW/RymcGZfv3/N1Wcadt8k
+D, [2020-01-11T19:28:16.467813 #3058] DEBUG -- : saved cookie: bm_sz=C122A68CF7AFAE921393CF4D2341F032~YAAQTja50MvmOJNvAQAAfL4mlwZW75zpgkkiJohDXz72zpMt6wK+HPc9XFUrlvQjszXYEu7lzXpxGcnJQWRXfd1TarG7pwdnsVM2eG2tug/HxsZme35fhfcBJaljSD2l2aOkV2UtQ90CM88how7nsm51liqKHUX+jV8aHsrP0Gk1zcBHMhLes5vUvGJexp3Q5GLq
+D, [2020-01-11T19:28:16.469176 #3058] DEBUG -- : saved cookie: _abck=330C0D98511C9E693814C050FED87BF7~-1~YAAQTja50MzmOJNvAQAAfL4mlwN663aQfiDir7YJRbcGsMuVgoCzAtM9IDM9WbWLgu2eHvlx2BWuBfABhkiOcl8puh7Y6uyceN0is0Aiple2F9Vh40Bw74UxdV4faWjzH2ihgwx7UQMDGbkl5Rvgf0yuvPaHtvHw0F0vLQDlmw6RNXaXV9/St3ft6MIjk96X9bPklxAhRljSPB2PsKh7J4dGK2uSxriPFgpYy3JCYdGir/8/iMgfrnQNj9UJmOW1koyiy1tfgfaROwim73mSymEaFllXcKdCB4gVYpYGrjmv/Ln0I4Qd5EDFQzwm~-1~-1~-1
+I, [2020-01-11T19:41:57.142194 #3058]  INFO -- : Net::HTTP::Get: /p/Milwaukee-M18-18-Volt-Lithium-Ion-Cordless-3-8-in-Impact-Wrench-W-Friction-Ring-Tool-Only-2658-20/204677823
+D, [2020-01-11T19:41:57.142454 #3058] DEBUG -- : request-header: accept-encoding => gzip,deflate,identity
+D, [2020-01-11T19:41:57.142571 #3058] DEBUG -- : request-header: accept => */*
+D, [2020-01-11T19:41:57.142612 #3058] DEBUG -- : request-header: user-agent => Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_2) AppleWebKit/601.3.9 (KHTML, like Gecko) Version/9.0.2 Safari/601.3.9
+D, [2020-01-11T19:41:57.142636 #3058] DEBUG -- : request-header: accept-charset => ISO-8859-1,utf-8;q=0.7,*;q=0.7
+D, [2020-01-11T19:41:57.142765 #3058] DEBUG -- : request-header: accept-language => en-us,en;q=0.5
+D, [2020-01-11T19:41:57.142854 #3058] DEBUG -- : request-header: host => www.homedepot.com
+I, [2020-01-11T19:41:58.703268 #3058]  INFO -- : status: Net::HTTPOK 1.1 200 OK
+D, [2020-01-11T19:41:58.703401 #3058] DEBUG -- : response-header: content-encoding => gzip
+D, [2020-01-11T19:41:58.703431 #3058] DEBUG -- : response-header: x-device-type => desktop
+D, [2020-01-11T19:41:58.703453 #3058] DEBUG -- : response-header: accept-ranges => bytes
+D, [2020-01-11T19:41:58.703473 #3058] DEBUG -- : response-header: x-tm-zone => us-east4-c
+D, [2020-01-11T19:41:58.703494 #3058] DEBUG -- : response-header: content-language => en-US
+D, [2020-01-11T19:41:58.703513 #3058] DEBUG -- : response-header: server => nginx
+D, [2020-01-11T19:41:58.703533 #3058] DEBUG -- : response-header: x-varnish => 26345960
+D, [2020-01-11T19:41:58.703553 #3058] DEBUG -- : response-header: x-varnish-cache => MISS@default
+D, [2020-01-11T19:41:58.703572 #3058] DEBUG -- : response-header: vary => X-ALTEXP,X-Device-Type, Accept-Encoding
+D, [2020-01-11T19:41:58.703591 #3058] DEBUG -- : response-header: grace => none
+D, [2020-01-11T19:41:58.703610 #3058] DEBUG -- : response-header: content-type => text/html;charset=utf-8
+D, [2020-01-11T19:41:58.703630 #3058] DEBUG -- : response-header: x-application-context => PIP:vulcan,prod-beta-settings,vulcan-prod-beta,hd-online-prod-beta:8080
+D, [2020-01-11T19:41:58.703650 #3058] DEBUG -- : response-header: x-varnish-esi => true
+D, [2020-01-11T19:41:58.703707 #3058] DEBUG -- : response-header: x-akamai-transformed => 9 83852 0 pmb=mTOE,3
+D, [2020-01-11T19:41:58.703728 #3058] DEBUG -- : response-header: expires => Sun, 12 Jan 2020 00:41:58 GMT
+D, [2020-01-11T19:41:58.703747 #3058] DEBUG -- : response-header: cache-control => max-age=0, no-cache, no-store
+D, [2020-01-11T19:41:58.703766 #3058] DEBUG -- : response-header: pragma => no-cache
+D, [2020-01-11T19:41:58.703784 #3058] DEBUG -- : response-header: date => Sun, 12 Jan 2020 00:41:58 GMT
+D, [2020-01-11T19:41:58.703803 #3058] DEBUG -- : response-header: content-length => 79616
+D, [2020-01-11T19:41:58.703822 #3058] DEBUG -- : response-header: connection => keep-alive
+D, [2020-01-11T19:41:58.703845 #3058] DEBUG -- : response-header: set-cookie => akaau=1578790018~id=9fad669324fcd426d14016352e1f2f83; path=/, ak_bmsc=89A10BAE8598BC12D14BD66FA15B7A81D0B9364EE76E0000566B1A5EA495414E~plf1ZiqBBNLBt3wlooO93gvdH0E82fl+/LjBrbwwPmToLJ/0qq0tL4WHEFJnagBVcHqIUBl8QKi6/d7GuNWaTIXpRIxWIWYLosaUsE0VR3cmTIriQK4+uYBAEph24uD3brv3bvaEcXwYde58fS7yPpSmgVhaswWgYfqLl/LOSLjxvwAe+UeY3jofGSScdWub+3mQhl5xK89S65+k7fCb/XGlXzTyS2/QfNFa9653BFL3Q=; expires=Sun, 12 Jan 2020 02:41:58 GMT; max-age=7200; path=/; domain=.homedepot.com; HttpOnly, HD_DC=beta; Domain=.homedepot.com; Path=/, bm_mi=368AAF89E7E606271C82DCF7A0BCBA0A~stRzt3tMlDmqYxeaHjQi6eH5SORKKJZiRxVyQrpdn5JDU8TpILMrVbrxRbHTUnLzWpF89tSteTowLH80IXqCStNsq81k9OlEsruyMX6jP4STqG8/8TLpdh0VNXc3CaTZ63o+rYOvDkXDTEbtFRgZEnX8TIEiwbxCVxHtH955MG6vEEMPSW7eWNv71mbqH1UpgFs12qBYRp83IJoaMncG1mcOVxq3cNi9Ci3vg1tusG16CxfkaR6aMZ4DEPFxtsiJx6zSjvLjtuQcpOluDjPcStn6cRikncH4f+4IH5m0nVV/bZjFyEHtnpTXsM8aVntpmSbEmdCpjCA78cVlZ5WoZO0dBSySUHgr+ntvV8AnwSjAQ8fBR7tCVD35Y9EGJTT2; Domain=.homedepot.com; Path=/; Max-Age=0; HttpOnly, bm_sz=6E6A42946FEF042903368B95AA0D3CA4~YAAQTja50LKeOZNvAQAATEkzlwbA6NKeQ9RkQRA0A8QYQUTF1P2HrShMYChkHHtCm3vtEDX2tONLHqQ9kiop7Iqhpy+cx89Q29JCFBWN8kptTXImuffbYS2Tj2+zqdlmQYNTa3qBS3v+rq6OszatUX8aXmRyx34qr1DKmi4Z6iqMpEUSw5MYwA3roMiYbEkfzmic; Domain=.homedepot.com; Path=/; Expires=Sun, 12 Jan 2020 04:41:57 GMT; Max-Age=14399; HttpOnly, _abck=CA7FD078EE7922788F43DB846AB750E8~-1~YAAQTja50LOeOZNvAQAATEkzlwOTnjWR3OU/bPJMvGRqC4P9gGcLhbYFbgyqgIk7prrdPlzI8IosdtRUH86QBppV1v9vu7lHVi6kscmZgoZqjL7XkJZobgHvF8QOpFoaGr1B6M4gNXj68d85pbODlwB81YCv5hgELATi8zbKASZe5kI7JeYLQpxY+vQD1fxGdPe7iQDcODffNHlHsJcACczwVH74kNBZ47pRLe+YMyi2iOeSM0U5jmm0ctSHSyQz58mleRyOlS6hAiamiGwK2gaNqdEEjyjBouT78DOdigv6IjBnvwWg/pxjfD2n~-1~-1~-1; Domain=.homedepot.com; Path=/; Expires=Mon, 11 Jan 2021 00:41:58 GMT; Max-Age=31536000; Secure
+D, [2020-01-11T19:41:58.703897 #3058] DEBUG -- : response-header: x-proto => secure
+D, [2020-01-11T19:41:58.704061 #3058] DEBUG -- : Read 13857 bytes (13857 total)
+D, [2020-01-11T19:41:58.853807 #3058] DEBUG -- : Read 16384 bytes (30241 total)
+D, [2020-01-11T19:41:58.853961 #3058] DEBUG -- : Read 1385 bytes (31626 total)
+D, [2020-01-11T19:41:58.929936 #3058] DEBUG -- : Read 16384 bytes (48010 total)
+D, [2020-01-11T19:41:58.958912 #3058] DEBUG -- : Read 16192 bytes (64202 total)
+D, [2020-01-11T19:41:58.971484 #3058] DEBUG -- : Read 15414 bytes (79616 total)
+D, [2020-01-11T19:41:58.971949 #3058] DEBUG -- : gzip response
+D, [2020-01-11T19:41:59.003221 #3058] DEBUG -- : saved cookie: akaau=1578790018~id=9fad669324fcd426d14016352e1f2f83
+D, [2020-01-11T19:41:59.003671 #3058] DEBUG -- : saved cookie: ak_bmsc=89A10BAE8598BC12D14BD66FA15B7A81D0B9364EE76E0000566B1A5EA495414E~plf1ZiqBBNLBt3wlooO93gvdH0E82fl+/LjBrbwwPmToLJ/0qq0tL4WHEFJnagBVcHqIUBl8QKi6/d7GuNWaTIXpRIxWIWYLosaUsE0VR3cmTIriQK4+uYBAEph24uD3brv3bvaEcXwYde58fS7yPpSmgVhaswWgYfqLl/LOSLjxvwAe+UeY3jofGSScdWub+3mQhl5xK89S65+k7fCb/XGlXzTyS2/QfNFa9653BFL3Q=
+D, [2020-01-11T19:41:59.003871 #3058] DEBUG -- : saved cookie: HD_DC=beta
+D, [2020-01-11T19:41:59.004079 #3058] DEBUG -- : saved cookie: bm_mi=368AAF89E7E606271C82DCF7A0BCBA0A~stRzt3tMlDmqYxeaHjQi6eH5SORKKJZiRxVyQrpdn5JDU8TpILMrVbrxRbHTUnLzWpF89tSteTowLH80IXqCStNsq81k9OlEsruyMX6jP4STqG8/8TLpdh0VNXc3CaTZ63o+rYOvDkXDTEbtFRgZEnX8TIEiwbxCVxHtH955MG6vEEMPSW7eWNv71mbqH1UpgFs12qBYRp83IJoaMncG1mcOVxq3cNi9Ci3vg1tusG16CxfkaR6aMZ4DEPFxtsiJx6zSjvLjtuQcpOluDjPcStn6cRikncH4f+4IH5m0nVV/bZjFyEHtnpTXsM8aVntpmSbEmdCpjCA78cVlZ5WoZO0dBSySUHgr+ntvV8AnwSjAQ8fBR7tCVD35Y9EGJTT2
+D, [2020-01-11T19:41:59.004590 #3058] DEBUG -- : saved cookie: bm_sz=6E6A42946FEF042903368B95AA0D3CA4~YAAQTja50LKeOZNvAQAATEkzlwbA6NKeQ9RkQRA0A8QYQUTF1P2HrShMYChkHHtCm3vtEDX2tONLHqQ9kiop7Iqhpy+cx89Q29JCFBWN8kptTXImuffbYS2Tj2+zqdlmQYNTa3qBS3v+rq6OszatUX8aXmRyx34qr1DKmi4Z6iqMpEUSw5MYwA3roMiYbEkfzmic
+D, [2020-01-11T19:41:59.005339 #3058] DEBUG -- : saved cookie: _abck=CA7FD078EE7922788F43DB846AB750E8~-1~YAAQTja50LOeOZNvAQAATEkzlwOTnjWR3OU/bPJMvGRqC4P9gGcLhbYFbgyqgIk7prrdPlzI8IosdtRUH86QBppV1v9vu7lHVi6kscmZgoZqjL7XkJZobgHvF8QOpFoaGr1B6M4gNXj68d85pbODlwB81YCv5hgELATi8zbKASZe5kI7JeYLQpxY+vQD1fxGdPe7iQDcODffNHlHsJcACczwVH74kNBZ47pRLe+YMyi2iOeSM0U5jmm0ctSHSyQz58mleRyOlS6hAiamiGwK2gaNqdEEjyjBouT78DOdigv6IjBnvwWg/pxjfD2n~-1~-1~-1
